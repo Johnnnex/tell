@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hi: randomval;
+}
+/* basic styles */
+.btn-generic {
+  padding-inline: 20px;
+  padding-block: 8px;
+  border-radius: 6px;
+  background: #D51D13;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
