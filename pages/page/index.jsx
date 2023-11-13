@@ -39,14 +39,14 @@ const Homepage = () => {
                     <path d="M0 3C27.2982 3 69.3742 3 87 3" stroke="#D51D13" stroke-width="6"/>
                   </svg>
                   <h3 className="text-[#05030A] text-[18px] font-[500]">
-                    WHO WE ARE
+                    {t("sectionOne.subHeading")}
                   </h3>
                 </div>
-                <h2 className="text-[40px] font-[600] tracking-[0.06px] mb-[32px] text-[#05120B]">Our Mission, Vision and Values</h2>
+                <h2 className="text-[40px] font-[600] tracking-[0.06px] mb-[32px] text-[#05120B]">{t("sectionOne.heading")}</h2>
                 <p className="mb-[32px] text-[#595959] text-[18px] leading-[30px] font-[400]">
-                  Our Mission: Spread the Name of Jesus and his message to communities. To serve our communities with His Love, His Faith, His hope and His life.
+                  {t("sectionOne.text")}
                 </p>
-                <button className="btn-generic">Join our Community</button>
+                <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
               </div>
             </div>
           </section>

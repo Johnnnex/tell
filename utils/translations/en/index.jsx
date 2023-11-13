@@ -13,8 +13,8 @@ export const English = {
         BtnTexts: "Donate"
     },
     sectionOne: {
-        subHeading: "",
-        heading: "",
-        text: ""
+        subHeading: "WHO WE ARE",
+        heading: "Our Mission, Vision and Values",
+        text: "Our Mission: Spread the Name of Jesus and his message to communities. To serve our communities with His Love, His Faith, His hope and His life."
     }
 }

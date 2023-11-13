@@ -13,8 +13,8 @@ export const Lingalla = {
         BtnTexts: "Kopesa libonza"
     },
     sectionOne: {
-        subHeading: "",
-        heading: "",
-        text: ""
+        subHeading: "NANI TOZALI",
+        heading: "Mission, Vision na Valeurs na biso",
+        text: "Mission na biso: Kopanza Nkombo ya Yesu pe nsango na ye na ba communautés. Kosalela ba communautés na biso na Bolingo na Ye, na Kondima na Ye, na elikia na Ye mpe na bomoi na Ye."
     }
 }

@@ -13,8 +13,8 @@ export const Spanish = {
         BtnTexts: "Donar"
     },
     sectionOne: {
-        subHeading: "",
-        heading: "",
-        text: ""
+        subHeading: "QUIENES SOMOS",
+        heading: "Nuestra Misión, Visión y Valores",
+        text: "Nuestra Misión: Difundir el Nombre de Jesús y su mensaje a las comunidades. Servir a nuestras comunidades con Su Amor, Su Fe, Su esperanza y Su vida."
     }
 }

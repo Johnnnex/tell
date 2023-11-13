@@ -13,8 +13,8 @@ export const Arabic = {
         BtnTexts: "يتبرع"
     },
     sectionOne: {
-        subHeading: "",
-        heading: "",
-        text: ""
+        subHeading: "من نحن",
+        heading: "مهمتنا ورؤيتنا وقيمنا",
+        text: "مهمتنا: نشر اسم يسوع ورسالته للمجتمعات. أن نخدم مجتمعاتنا بمحبته وإيمانه ورجائه وحياته."
     }
 }

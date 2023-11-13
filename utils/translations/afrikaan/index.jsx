@@ -13,8 +13,8 @@ export const Afrikaan = {
         BtnTexts: "skenk"
     },
     sectionOne: {
-        subHeading: "",
-        heading: "",
-        text: ""
+        subHeading: "WIE IS ONS",
+        heading: "Mission, Vision na Valeurs na biso",
+        text: "Ons Missie: Versprei die Naam van Jesus en sy boodskap aan gemeenskappe. Om ons gemeenskappe te dien met Sy Liefde, Sy Geloof, Sy hoop en Sy lewe."
     }
 }
