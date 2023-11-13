@@ -9,6 +9,12 @@ export const English = {
     },
     Hero: {
         Title: "Discover Hope, Faith, and Community Your Spiritual Journey Begins Here!.",
-        text: "We warmly welcome you to embark on a transformative spiritual journey. Our faith community is dedicated to nurturing hope, fostering unwavering faith, and building lasting connections."
+        text: "We warmly welcome you to embark on a transformative spiritual journey. Our faith community is dedicated to nurturing hope, fostering unwavering faith, and building lasting connections.",
+        BtnTexts: "Donate"
+    },
+    sectionOne: {
+        subHeading: "",
+        heading: "",
+        text: ""
     }
 }

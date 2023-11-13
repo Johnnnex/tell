@@ -9,6 +9,12 @@ export const Lingalla = {
     },
     Hero: {
         Title: "Découvrez Elikya, Kondima, mpe Lisanga Mobembo Na Yo ya Molimo Ebandi Awa!.",
-        text: "Toyambi bino na esengo nyonso mpo na kobanda mobembo ya molimo oyo ekobongola. Lisanga na biso ya bondimi emipesi mpo na koleisa elikia, kolendisa bondimi oyo etɛngamá te, mpe kotonga boyokani ya koumela."
+        text: "Toyambi bino na esengo nyonso mpo na kobanda mobembo ya molimo oyo ekobongola. Lisanga na biso ya bondimi emipesi mpo na koleisa elikia, kolendisa bondimi oyo etɛngamá te, mpe kotonga boyokani ya koumela.",
+        BtnTexts: "Kopesa libonza"
+    },
+    sectionOne: {
+        subHeading: "",
+        heading: "",
+        text: ""
     }
 }

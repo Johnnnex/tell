@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
+import { useRef, useState, useEffect } from 'react'
 import { Inter } from 'next/font/google'
-import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,6 +10,7 @@ const Header = () => {
   const [t, i18n] = useTranslation("global")
   const [translateModal, setTranslateModal] = useState(false)
   const {pathname} = useRouter()
+  const header = useRef()
   const handleChangeLanguage = lang => {
     i18n.changeLanguage(lang)
   }
@@ -45,10 +46,13 @@ const Header = () => {
       <li key={id} className={`${pathname == path && "active"} text-[#6B7280] text-[16px] font-[500]`}>{linkName}</li>
     )
   })
+  useEffect (() => {
+    window.addEventListener("scroll", () => {
+      header.current.classList.toggle("header-sticky", window.scrollY > 0)
+  })
+  }, [])
   return (
-    <header className={`py-[10px] ${inter.className}`}>
-      {/* <button onClick={()=> handleChangeLanguage("es")}>Spanish</button>
-      <button onClick={()=> handleChangeLanguage("en")}>English</button> */}
+    <header ref={header} className={`py-[10px] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
       <div className="flex w-[94%] items-center gap-[6vw] justify-between mx-auto">
         <figure className="">
           <Image 
