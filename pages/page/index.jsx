@@ -54,33 +54,137 @@ const Homepage = () => {
             <div className="w-[88%] mx-auto">
               <h2 className="mb-[74px] text-[#000000] text-[40px] font-[600] text-center">{t("values.heading")}</h2>
               <div className="grid grid-cols-2 gap-x-[18px] gap-y-[24px] mb-[56px]">
-                <div className="bg-[url('/images/values-1.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                <div className="bg-[url('/images/values-1.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border border-black pt-[219px] pl-[27px] pb-[37px]">
                   <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardOne.heading")}</h3>
-                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                  <p className="text-[18px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardOne.text")}
                   </p>
                 </div>
-                <div className="border bg-[url('/images/values-2.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                <div className="border bg-[url('/images/values-2.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                   <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardTwo.heading")}</h3>
-                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                  <p className="text-[18px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardTwo.text")}
                   </p>
                 </div>
-                <div className="border bg-[url('/images/values-3.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                <div className="border bg-[url('/images/values-3.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                   <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardThr.heading")}</h3>
-                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                  <p className="text-[18px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardThr.text")}
                   </p>
                 </div>
-                <div className="border bg-[url('/images/values-4.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                <div className="border bg-[url('/images/values-4.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                   <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardFour.heading")}</h3>
-                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                  <p className="text-[18px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardFour.text")}
                   </p>
                 </div>
               </div>
               <div className="w-fit mx-auto">
-                <button className="btn-generic"></button>
+                <button className="btn-generic">{t("values.btnText")}</button>
+              </div>
+            </div>
+          </section>
+          <section className="py-[91px] bg-white">
+            <h2 className="text-black font-[600] text-[40px] text-center mb-[24px]">What We DO</h2>
+            <p className="leading-[21.6px] text-[#595959] text-[18px] font-[400] w-[60%] mb-[62px] mx-auto text-center">
+              In the community: We are active participants in our community, demonstrating love, hope, and joy In all our actions, making our community a better place.
+            </p>
+            <div className="grid grid-cols-3 gap-x-[24px] gap-y-[32px] w-[85%] mx-auto">
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-1.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
+              </div>
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-2.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
+              </div>
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-3.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
+              </div>
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-4.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
+              </div>
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-5.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
+              </div>
+              <div className="px-[15px] py-[10px] border border-[#A49E9E69] rounded-[16px]">
+                <figure className="h-[433px] relative rounded-[8px] overflow-hidden bg-blend-overlay bg-[#00000033] bg-cover bg-center bg-[url('/images/who-we-are-6.png')]">
+                  <figcaption className="absolute bottom-[16px] p-[10px] rounded-[8px] bg-[#FFFFFF99] left-[5px]">Youth and Children</figcaption>
+                </figure>
+                <div className="pt-[32px]">
+                  <h3 className="mb-[8px] text-black text-[24px] font-[600]">What we do:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    We nurture the younger generation, providing guidance and support to build character and faith
+                  </p>
+                  <h3 className="text-black font-[600] text-[24px] mb-[8px]">Biblical Reference:</h3>
+                  <p className="text-[#595959] text-[18px] font-[400] leading-[21.6px] mb-[24px]">
+                    Psalms 150: 3-5 encourages the use of musical instruments and creativity in worship, 
+                    “Praise him with trumpet sound, praise him with lute and harp! Praise him with tambourine and dance".
+                  </p>
+                </div>
               </div>
             </div>
           </section>

@@ -64,7 +64,7 @@ const Header = () => {
           />
         </figure>
         <nav className="flex-1 flex justify-between gap-[2vw] items-center">
-          <ul className="flex flex-1 justify-between">
+          <ul className="flex flex-1 items-center justify-between">
             {mappedLink}
             <li className="relative">
               <button onClick={() => setTranslateModal(prevState => !prevState)} className="flex items-center text-[#6B7280] text-[16px] font-[500] gap-[10px]">
