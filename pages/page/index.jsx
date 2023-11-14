@@ -36,7 +36,7 @@ const Homepage = () => {
               <div className="flex-1">
                 <div className="flex items-center mb-[32px] gap-[24px]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="87" height="6" viewBox="0 0 87 6" fill="none">
-                    <path d="M0 3C27.2982 3 69.3742 3 87 3" stroke="#D51D13" stroke-width="6"/>
+                    <path d="M0 3C27.2982 3 69.3742 3 87 3" stroke="#D51D13" strokeWidth="6"/>
                   </svg>
                   <h3 className="text-[#05030A] text-[18px] font-[500]">
                     {t("sectionOne.subHeading")}
@@ -47,6 +47,40 @@ const Homepage = () => {
                   {t("sectionOne.text")}
                 </p>
                 <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
+              </div>
+            </div>
+          </section>
+          <section className="pt-[80px] pb-[60px] bg-white">
+            <div className="w-[88%] mx-auto">
+              <h2 className="mb-[74px] text-[#000000] text-[40px] font-[600] text-center">{t("values.heading")}</h2>
+              <div className="grid grid-cols-2 gap-x-[18px] gap-y-[24px] mb-[56px]">
+                <div className="bg-[url('/images/values-1.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                  <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardOne.heading")}</h3>
+                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                    {t("values.cardOne.text")}
+                  </p>
+                </div>
+                <div className="border bg-[url('/images/values-2.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                  <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardTwo.heading")}</h3>
+                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                    {t("values.cardTwo.text")}
+                  </p>
+                </div>
+                <div className="border bg-[url('/images/values-3.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                  <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardThr.heading")}</h3>
+                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                    {t("values.cardThr.text")}
+                  </p>
+                </div>
+                <div className="border bg-[url('/images/values-4.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pr-[131px] pb-[37px]">
+                  <h3 className="text-white font-[600] text-[30px] mb-[24px]">{t("values.cardFour.heading")}</h3>
+                  <p className="text-[18px] text-white font-[400] leading-[27px]">
+                    {t("values.cardFour.text")}
+                  </p>
+                </div>
+              </div>
+              <div className="w-fit mx-auto">
+                <button className="btn-generic"></button>
               </div>
             </div>
           </section>

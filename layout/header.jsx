@@ -52,7 +52,7 @@ const Header = () => {
   })
   }, [])
   return (
-    <header ref={header} className={`py-[10px] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
+    <header ref={header} className={`py-[10px] z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
       <div className="flex w-[94%] items-center gap-[6vw] justify-between mx-auto">
         <figure className="">
           <Image 
