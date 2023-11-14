@@ -80,5 +80,17 @@ export const Lingalla = {
             headingTwo: "Lisolo ya Biblia:",
             textTwo: `Bafilipi 4:7 epesi libondisi, “Mpe kimia ya Nzambe, oyo eleki bososoli nyonso, ekobatela mitema na bino mpe makanisi na bino kati na Klisto Yesu”.`
         },
+    },
+    help: {
+        heading: "Ndenge Nini Okoki Kosalisa",
+        cardOne: {
+            heading: "Kopesa libonza",
+            pointOne: "Kopesa mbala na mbala",
+            pointTwo: "Ba partenariats ya ba entreprises"
+        },
+        cardTwo: {
+            heading: "Banzela mosusu",
+            pointOne: "Mosali ya bolingo malamu"
+        }
     }
 }

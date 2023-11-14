@@ -80,5 +80,17 @@ export const Spanish = {
             headingTwo: "Referencia Bíblica:",
             textTwo: `Filipenses 4:7 ofrece consuelo: “Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús”.`
         },
+    },
+    help: {
+        heading: "Cómo puedes ayudar",
+        cardOne: {
+            heading: "Donar",
+            pointOne: "Donaciones regulares",
+            pointTwo: "Asociaciones corporativas"
+        },
+        cardTwo: {
+            heading: "Otras maneras",
+            pointOne: "Voluntario"
+        }
     }
 }

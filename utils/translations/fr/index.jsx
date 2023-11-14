@@ -80,5 +80,17 @@ export const French = {
             headingTwo: "Référence biblique :",
             textTwo: `Philippiens 4 :7 offre du réconfort : « Et la paix de Dieu, qui surpasse toute intelligence, gardera vos cœurs et vos pensées en Jésus-Christ ».`
         },
+    },
+    help: {
+        heading: "Comment vous pouvez aider",
+        cardOne: {
+            heading: "Faire un don",
+            pointOne: "Dons réguliers",
+            pointTwo: "Partenariats d'entreprise"
+        },
+        cardTwo: {
+            heading: "D'autres moyens",
+            pointOne: "Bénévole"
+        }
     }
 }

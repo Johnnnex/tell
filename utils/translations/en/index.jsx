@@ -80,5 +80,17 @@ export const English = {
             headingTwo: "Biblical Reference:",
             textTwo: `Philippians 4:7 offers comfort, “And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus”.`
         },
+    },
+    help: {
+        heading: "How You Can Help",
+        cardOne: {
+            heading: "Donate",
+            pointOne: "Regular Giving",
+            pointTwo: "Corporate Partnerships"
+        },
+        cardTwo: {
+            heading: "Other Ways",
+            pointOne: "Volunteer"
+        }
     }
 }

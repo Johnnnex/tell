@@ -80,5 +80,17 @@ export const Afrikaan = {
             headingTwo: "Bybelse verwysing:",
             textTwo: `Filippense 4:7 bied vertroosting, "En die vrede van God, wat alle verstand te bowe gaan, sal oor julle harte en gedagtes die wag hou in Christus Jesus".`
         },
+    },
+    help: {
+        heading: "Hoe jy kan help",
+        cardOne: {
+            heading: "skenk",
+            pointOne: "Gereelde Gee",
+            pointTwo: "Korporatiewe vennootskappe"
+        },
+        cardTwo: {
+            heading: "Ander maniere",
+            pointOne: "Vrywilliger"
+        }
     }
 }

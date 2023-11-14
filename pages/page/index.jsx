@@ -50,7 +50,7 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-          <section className="pt-[80px] pb-[60px] bg-white">
+            <section className="pt-[80px] pb-[60px] bg-[#FBF6F6]">
             <div className="w-[88%] mx-auto">
               <h2 className="mb-[74px] text-[#000000] text-[40px] font-[600] text-center">{t("values.heading")}</h2>
               <div className="grid grid-cols-2 gap-x-[18px] gap-y-[24px] mb-[56px]">
@@ -178,30 +178,30 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-          <section className="pt-[43px] bg-white">
+            <section className="py-[44px] bg-[#FBF6F6]">
             <div className="w-[80%] mx-auto">
-              <h2 className="text-[40px] font-[600] text-[#05120B] mb-[60px] text-center">How You Can Help</h2>
+              <h2 className="text-[40px] font-[600] text-[#05120B] mb-[60px] text-center">{t("help.heading")}</h2>
               <div className="flex gap-[16px] items-center">
                 <div className="h-[569px] text-white flex items-center flex-col justify-center flex-1 bg-blend-overlay bg-[#0705119C] bg-cover bg-center bg-[url('/images/donation.png')]">
                   <div className="w-fit mx-auto">
-                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">Donate</h2>
+                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">{t("help.cardOne.heading")}</h2>
                     <ul className="list-inside space-y-[16px] text-[18px] font-[400] mb-[34px] list-disc">
-                      <li>Regular Giving</li>
-                      <li>Corporate Partnerships</li>
+                      <li>{t("help.cardOne.pointOne")}</li>
+                      <li>{t("help.cardOne.pointTwo")}</li>
                     </ul>
                     <div className="w-fit mx-auto">
-                      <button className="btn-generic">Donate</button>
+                      <button className="btn-generic">{t("Hero.BtnTexts")}</button>
                     </div>
                   </div>
                 </div>
                 <div className="flex-1 h-[569px] text-white flex items-center flex-col justify-center bg-blend-overlay bg-[#0705119C] bg-cover bg-center bg-[url('/images/prayer.png')]">
                   <div className="w-fit mx-auto">
-                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">Other Ways</h2>
+                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">{t("help.cardTwo.heading")}</h2>
                     <ul className="list-inside text-[18px] font-[400] mb-[34px] list-disc">
-                      <li>Volunteer</li>
+                      <li>{t("help.cardTwo.pointOne")}</li>
                     </ul>
                     <div className="w-fit mx-auto">
-                      <button className="btn-generic">Donate</button>
+                      <button className="btn-trans">{t("NavEl.BtnTexts")}</button>
                     </div>
                   </div>
                 </div>
