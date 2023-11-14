@@ -36,5 +36,49 @@ export const Spanish = {
             text: "Inquebrantables en nuestra integridad, alineándonos con la sabiduría de Proverbios 10:9: 'El que camina en integridad, camina seguro, pero el que toma caminos torcidos será descubierto'."
         },
         btnText: `Ver todos los valores`
+    },
+    whoWeAre: {
+        heading: "Lo que hacemos",
+        text: "En la comunidad: Somos participantes activos en nuestra comunidad, demostrando amor, esperanza y alegría en todas nuestras acciones, haciendo de nuestra comunidad un lugar mejor.",
+        cardOne: {
+            figCaption: "Jóvenes y niños",
+            headingOne: "Qué hacemos:",
+            textOne: "Cuidamos a la generación más joven, brindando orientación y apoyo para desarrollar el carácter y la fe.",
+            headingTwo: "Referencia Bíblica:",
+            textTwo: "Proverbios 22:6 aconseja: “Instruye al niño en el camino en el que debe andar; aunque sea viejo, no se apartará de él”."
+        },
+        cardTwo: {
+            figCaption: "Familias",
+            headingOne: "Qué hacemos:",
+            textOne: "Fortalecemos a las familias, ofreciéndoles recursos y consejos para crear hogares amorosos y armoniosos."
+        },
+        cardThr: {
+            figCaption: "Sin hogar",
+            headingOne: "Qué hacemos:",
+            textOne: "A través de nuestros proyectos, tendemos una mano amiga a los necesitados, brindándoles refugio, comida y esperanza de un futuro mejor.",
+            headingTwo: "Referencia Bíblica:",
+            textTwo: `Mateo 25:35-36 resalta el deber cristiano de ayudar a las personas sin hogar: “Porque tuve hambre y me disteis de comer, tuve sed y me disteis de beber, fui forastero y me acogisteis”.`
+        },
+        cardFour: {
+            figCaption: "Música y artes creativas",
+            headingOne: "Qué hacemos:",
+            textOne: "Alabamos a Dios y celebramos la creatividad divina de Dios obrando en nosotros, usando la música y las artes para inspirar y elevar a la comunidad en el Nombre de Jesús.",
+            headingTwo: "Referencia Bíblica:",
+            textTwo: "Salmo 150: 3-5 fomenta el uso de instrumentos musicales y la creatividad en la adoración: “¡Alabadle con sonido de trompeta, alabadle con flauta y arpa! Alabadle con pandero y danza”."
+        },
+        cardFiv: {
+            figCaption: "Personas mayores",
+            headingOne: "Qué hacemos:",
+            textOne: "Mostramos respeto y cuidado por nuestros mayores, asegurándonos de que no sean olvidados y sigan siendo miembros activos de nuestra comunidad.",
+            headingTwo: "Referencia Bíblica:",
+            textTwo: `Levítico 19:32 nos recuerda: “Delante de las canas te levantarás y honrarás el rostro del anciano”.`
+        },
+        cardSix: {
+            figCaption: "Familias",
+            headingOne: "Qué hacemos:",
+            textOne: "Brindamos apoyo a la salud mental, brindando un espacio seguro para que las personas encuentren sanación y paz a través de la palabra.",
+            headingTwo: "Referencia Bíblica:",
+            textTwo: `Filipenses 4:7 ofrece consuelo: “Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús”.`
+        },
     }
 }
