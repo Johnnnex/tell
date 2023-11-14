@@ -178,6 +178,36 @@ const Homepage = () => {
               </div>
             </div>
           </section>
+          <section className="pt-[43px] bg-white">
+            <div className="w-[80%] mx-auto">
+              <h2 className="text-[40px] font-[600] text-[#05120B] mb-[60px] text-center">How You Can Help</h2>
+              <div className="flex gap-[16px] items-center">
+                <div className="h-[569px] text-white flex items-center flex-col justify-center flex-1 bg-blend-overlay bg-[#0705119C] bg-cover bg-center bg-[url('/images/donation.png')]">
+                  <div className="w-fit mx-auto">
+                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">Donate</h2>
+                    <ul className="list-inside space-y-[16px] text-[18px] font-[400] mb-[34px] list-disc">
+                      <li>Regular Giving</li>
+                      <li>Corporate Partnerships</li>
+                    </ul>
+                    <div className="w-fit mx-auto">
+                      <button className="btn-generic">Donate</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex-1 h-[569px] text-white flex items-center flex-col justify-center bg-blend-overlay bg-[#0705119C] bg-cover bg-center bg-[url('/images/prayer.png')]">
+                  <div className="w-fit mx-auto">
+                    <h2 className="text-white mb-[16px] text-[32px] text-center font-[600]">Other Ways</h2>
+                    <ul className="list-inside text-[18px] font-[400] mb-[34px] list-disc">
+                      <li>Volunteer</li>
+                    </ul>
+                    <div className="w-fit mx-auto">
+                      <button className="btn-generic">Donate</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
     </>
   )
