@@ -25,7 +25,7 @@ const Homepage = () => {
               />
             </h1>
             <h1 className="text-white wow fadeInDown text-[55px] leading-[70px] font-[600] w-fit mx-auto mb-[24px] text-center">{t("Hero.TitleTwo")}</h1>
-            <p className="w-[75%] text-center mx-auto text-white text-[20px] mb-[32px] font-[500] tracking-[0.3px]">
+            <p className="w-[75%] wow fadeIn text-center mx-auto text-white text-[20px] mb-[32px] font-[500] tracking-[0.3px]">
               {t("Hero.text")}
             </p>
             <div className="flex w-fit mx-auto gap-[16px]">
