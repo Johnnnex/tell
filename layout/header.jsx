@@ -43,7 +43,7 @@ const Header = () => {
   ]
   const mappedLink = links.map(({id, path, linkName}) => {
     return (
-      <li key={id} className={`${pathname == path && "active"} text-[#6B7280] text-[16px] font-[500]`}>{linkName}</li>
+      <li key={id} className={`${pathname == path && "text-[#D51D13]"} text-[#6B7280] hover:text-[#D51D13] transition-[.4s] text-[16px] font-[500]`}>{linkName}</li>
     )
   })
   useEffect (() => {
@@ -76,7 +76,7 @@ const Header = () => {
                   width={20}
                 />
               </button>
-              <div className={`absolute ${translateModal == true ? "max-h-[100vh]" : "max-h-0 invisible"} transition-[.4s] px-[10px] flex flex-col bg-[#D51D13] text-white rounded-[2px] left-0`}>
+              <div className={`absolute ${translateModal == true ? "max-h-[100vh]" : "max-h-0 invisible"} transition-[.4s] px-[20px] flex flex-col bg-[#D51D13] text-white rounded-[2px] left-0`}>
                 <button onClick={()=> handleChangeLanguage("en")} className="border-b pb pt-2">English</button>
                 <button onClick={()=> handleChangeLanguage("es")} className="border-b pb pt-2">Spanish</button>
                 <button onClick={()=> handleChangeLanguage("af")} className="border-b pb pt-2">Afrikaan</button>
