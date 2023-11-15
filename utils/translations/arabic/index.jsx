@@ -92,5 +92,15 @@ export const Arabic = {
             heading: `طرق أخرى`,
             pointOne: `متطوع`
         }
+    },
+    getInTouch: {
+        heading: `ابقى على تواصل`,
+        formEl: {
+            mail: `بريد إلكتروني`,
+            name: `الاسم الكامل`,
+            phone: `هاتف`,
+            message: `رسالة`,
+            btnText: `يُقدِّم`
+        }
     }
 }

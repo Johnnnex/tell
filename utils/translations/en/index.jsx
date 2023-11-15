@@ -92,5 +92,15 @@ export const English = {
             heading: "Other Ways",
             pointOne: "Volunteer"
         }
+    },
+    getInTouch: {
+        heading: "Get in touch",
+        formEl: {
+            mail: "Email",
+            name: "Full name",
+            phone: "Phone",
+            message: "Message",
+            btnText: "Submit"
+        }
     }
 }

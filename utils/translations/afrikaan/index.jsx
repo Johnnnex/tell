@@ -92,5 +92,15 @@ export const Afrikaan = {
             heading: "Ander maniere",
             pointOne: "Vrywilliger"
         }
+    },
+    getInTouch: {
+        heading: "Kontak my",
+        formEl: {
+            mail: "E-pos",
+            name: "Volle naam",
+            phone: "Foon",
+            message: "Boodskap",
+            btnText: "Indien"
+        }
     }
 }

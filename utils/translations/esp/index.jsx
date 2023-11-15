@@ -92,5 +92,15 @@ export const Spanish = {
             heading: "Otras maneras",
             pointOne: "Voluntario"
         }
+    },
+    getInTouch: {
+        heading: "Ponerse en contacto",
+        formEl: {
+            mail: "Correo electrónico",
+            name: "Nombre completo",
+            phone: "Teléfono",
+            message: "Mensaje",
+            btnText: "Entregar"
+        }
     }
 }

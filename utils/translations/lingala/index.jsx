@@ -92,5 +92,15 @@ export const Lingalla = {
             heading: "Banzela mosusu",
             pointOne: "Mosali ya bolingo malamu"
         }
+    },
+    getInTouch: {
+        heading: "Bozala na contact",
+        formEl: {
+            mail: "Email na nzela ya email",
+            name: "Nkombo mobimba",
+            phone: "Tyombo",
+            message: "Nsango",
+            btnText: "Kotinda"
+        }
     }
 }

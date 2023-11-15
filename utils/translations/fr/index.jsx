@@ -92,5 +92,15 @@ export const French = {
             heading: "D'autres moyens",
             pointOne: "Bénévole"
         }
+    },
+    getInTouch: {
+        heading: "Entrer en contact",
+        formEl: {
+            mail: "E-mail",
+            name: "Nom et prénom",
+            phone: "Téléphone",
+            message: "Message",
+            btnText: "Soumettre"
+        }
     }
 }

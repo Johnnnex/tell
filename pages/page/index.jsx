@@ -212,31 +212,31 @@ const Homepage = () => {
             <div className="w-[85%] justify-between flex mx-auto">
               <div className="w-[40%] text-white bg-[url('/images/values-2.png')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] px-[32px] flex flex-col items-center justify-center">
                 <div>
-                  <h2 className="mb-[32px] text-[30px] font-[700]">Get in touch</h2>
+                  <h2 className="mb-[32px] text-[30px] font-[700]">{t("getInTouch.heading")}</h2>
                   <address className="leading-[24px] mb-[24px] font-[400] text-[16px]">
                     6 Lower Clarence Road <br />
                     Norwich
                   </address>
                   <div className="flex text-white text-[16px] font-[400] mb-[12px] gap-[12px]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     +234 7311067887
                   </div>
                   <div className="flex text-white text-[16px] font-[400] mb-[12px] gap-[12px]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     Kephale.tell@gmail.com
                   </div>
                 </div>
               </div>
               <form className="w-[55%] space-y-[24px]">
-                <input type="text" className="input-generic" placeholder="Full name" />
-                <input type="email" className="input-generic" placeholder="Email" />
-                <input type="number" className="input-generic" placeholder="Email" />
-                <textarea cols="30" rows="5" className="input-textarea" placeholder="Message" />
-                <button className="btn-generic" type="submit">Submit</button>
+                <input type="text" className="input-generic" placeholder={t("getInTouch.formEl.name")} />
+                <input type="email" className="input-generic" placeholder={t("getInTouch.formEl.mail")} />
+                <input type="number" className="input-generic" placeholder={t("getInTouch.formEl.phone")} />
+                <textarea cols="30" rows="5" className="input-textarea" placeholder={t("getInTouch.formEl.message")} />
+                <button className="btn-generic" type="submit">{t("getInTouch.formEl.btnText")}</button>
               </form>
             </div>
           </section>
