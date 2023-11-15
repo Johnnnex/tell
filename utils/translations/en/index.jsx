@@ -8,7 +8,11 @@ export const English = {
         BtnTexts: "Join our Community"
     },
     Hero: {
-        Title: "Discover Hope, Faith, and Community Your Spiritual Journey Begins Here!.",
+        Title: "Discover",
+        hope: "Hope",
+        faith: "Faith",
+        community: "Community",
+        TitleTwo: "Your Spiritual Journey Begins Here!.",
         text: "We warmly welcome you to embark on a transformative spiritual journey. Our faith community is dedicated to nurturing hope, fostering unwavering faith, and building lasting connections.",
         BtnTexts: "Donate"
     },

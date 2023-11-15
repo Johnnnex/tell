@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 const Header = () => {
   const [t, i18n] = useTranslation("global")
+  const [navState, toggleNavState] = useState(false)
   const [translateModal, setTranslateModal] = useState(false)
   const {pathname} = useRouter()
   const header = useRef()
@@ -51,6 +52,9 @@ const Header = () => {
       header.current.classList.toggle("header-sticky", window.scrollY > 0)
   })
   }, [])
+  const toggleNav = () => {
+    toggleNavState(!navState) 
+  }
   return (
     <header ref={header} className={`py-[10px] z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
       <div className="flex w-[94%] items-center gap-[6vw] justify-between mx-auto">
@@ -90,6 +94,17 @@ const Header = () => {
             <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
           </div>
         </nav>
+        <button type='button' onClick={toggleNav} className="z-[2] md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "hidden" : ""}`} height="32" viewBox="0 0 32 1" fill="none">
+                <path d="M5.33333 10.6667H26.6667M5.33333" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[45deg] translate-x-[10%] translate-y-[13%]" : "hidden"}`} height="32" viewBox="0 10 32 2" fill="none">
+                <path d="M5.333333 21.3334H18.6667" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "rotate-[-45deg] translate-y-[-50%] translate-x-[20%]" : ""}`} height="32" viewBox="0 20 32 32" fill="none">
+                <path d="M5.333333 21.3334H18.6667" stroke="#666481" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+        </button>
       </div>
     </header>
   )

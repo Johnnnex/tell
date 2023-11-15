@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --hi: randomval;
+
+html {
+  scroll-behavior: smooth;
 }
 .hero {
   background-image: url(/images/hero-image.png);
@@ -82,4 +83,16 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
+}
+/* removing highlight issue */
+
+@layer base {
+  html {
+      -webkit-tap-highlight-color: transparent;
+  }
+}
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }

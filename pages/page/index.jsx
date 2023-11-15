@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Inter } from 'next/font/google'
 import Image from 'next/image'
+import Typewriter from "typewriter-effect";
 import HeadComp from '@/layout/headcomp'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,9 +14,17 @@ const Homepage = () => {
         <main className={`${inter.className} mt-[10vh]`}>
           <section className="fixed hero h-[100vh] w-full z-[-1]"></section>
           <section className="pb-[201px] pt-[180px]">
-            <h1 className="text-white text-[55px] leading-[70px] font-[600] w-[85%] mx-auto mb-[24px] text-center">
+            <h1 className="text-white flex gap-[20px] wow fadeInDown text-[55px] leading-[70px] font-[600] w-fit mx-auto text-center">
               {t("Hero.Title")}
+              <Typewriter
+                options={{
+                  strings: [t("Hero.hope"), t("Hero.faith"), t("Hero.community")],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h1>
+            <h1 className="text-white wow fadeInDown text-[55px] leading-[70px] font-[600] w-fit mx-auto mb-[24px] text-center">{t("Hero.TitleTwo")}</h1>
             <p className="w-[75%] text-center mx-auto text-white text-[20px] mb-[32px] font-[500] tracking-[0.3px]">
               {t("Hero.text")}
             </p>
