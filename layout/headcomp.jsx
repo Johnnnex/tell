@@ -19,7 +19,7 @@ const HeadComp = ({title}) => {
         {/* <meta property="og:type" content="website" />
         <meta property="og:description" content="Empowering Women Globally Through Decentralized Finance" />
         <meta property="og:site_name" content="Women in DeFi" /> */}
-        <link rel="icon" href="/wid.ico" />
+        <link rel="icon" href="/tell.ico" />
     </Head>
   )
 }
