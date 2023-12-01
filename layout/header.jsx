@@ -30,7 +30,7 @@ const Header = () => {
     },
     {
       id: 3,
-      path: "",
+      path: "/page/the-faith",
       linkName: t("NavEl.LinkNameThr")
     },
     {
