@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import Link from "next/link"
 import { useTranslation } from 'react-i18next'
 import { Inter } from 'next/font/google'
 
@@ -10,22 +11,22 @@ const Footer = () => {
   const links = [
     {
       id: 1,
-      path: "/",
+      path: "#mission",
       linkName: t("NavEl.LinkNameOne")
     },
     {
       id: 2,
-      path: "",
+      path: "#about",
       linkName: t("NavEl.LinkNameTwo")
     },
     {
       id: 3,
-      path: "",
+      path: "/page/the-faith",
       linkName: t("NavEl.LinkNameThr")
     },
     {
       id: 4,
-      path: "",
+      path: "/page/tell-answers",
       linkName: t("NavEl.LinkNameFour")
     },
     {
@@ -36,7 +37,11 @@ const Footer = () => {
   ]
   const mappedLink = links.map(({id, path, linkName}) => {
     return (
-      <li key={id} className={`${pathname == path && "text-[#D51D13]"} hover:text-[#D51D13] transition-[.4s]`}>{linkName}</li>
+      <li key={id} className={`${pathname == path && "text-[#D51D13]"} hover:text-[#D51D13] transition-[.4s]`}>
+        <Link href={path}>
+          {linkName}
+        </Link>
+      </li>
     )
   })
   return (

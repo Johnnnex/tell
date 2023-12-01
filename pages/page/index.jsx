@@ -33,7 +33,7 @@ const Homepage = () => {
               <button className="btn-white">{t("Hero.BtnTexts")}</button>
             </div>
           </section>
-          <section className="py-[81px] bg-white">
+          <section id="mission" className="py-[81px] bg-white">
             <div className="w-[85%] flex items-center gap-[80px] mx-auto">
               <figure className="relative rounded-[8px] overflow-hidden w-[420px] h-[408px]">
                 <Image 
@@ -59,7 +59,7 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-            <section className="pt-[80px] pb-[60px] bg-[#FBF6F6]">
+          <section className="pt-[80px] pb-[60px] bg-[#FBF6F6]">
             <div className="w-[88%] mx-auto">
               <h2 className="mb-[74px] text-[#000000] text-[40px] font-[600] text-center">{t("values.heading")}</h2>
               <div className="grid grid-cols-2 gap-x-[18px] gap-y-[24px] mb-[56px]">
@@ -93,7 +93,7 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-          <section className="py-[91px] bg-white">
+          <section id="about" className="py-[91px] bg-white">
             <h2 className="text-black font-[600] text-[40px] text-center mb-[24px]">{t("whoWeAre.heading")}</h2>
             <p className="leading-[21.6px] text-[#595959] text-[18px] font-[400] w-[60%] mb-[62px] mx-auto text-center">
               {t("whoWeAre.text")}
@@ -187,7 +187,7 @@ const Homepage = () => {
               </div>
             </div>
           </section>
-            <section className="py-[44px] bg-[#FBF6F6]">
+          <section className="py-[44px] bg-[#FBF6F6]">
             <div className="w-[85%] mx-auto">
               <h2 className="text-[40px] font-[600] text-[#05120B] mb-[60px] text-center">{t("help.heading")}</h2>
               <div className="flex gap-[16px] items-center">
