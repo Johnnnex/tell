@@ -143,5 +143,24 @@ export const English = {
             textFive: "Q. Does salvation have any relevance to my present reality or does it only guarantee a life that never ends after one dies?",
             textSix: "Q. What does it mean to be saved by Grace? Am i no longer accountable for my actions?"
         },
+    }, 
+    pageThr: {
+        sectionOne: {
+            heading: "The Faith",
+            textOne: "We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.",
+            textTwo: "We believe He died to save man from sin and to restore man into an unbroken relationship & eternal union with God.",
+            textThr: "We believe that He rose again, ascended to heaven and is alive today IN US (CHRIST IN US).",
+            textFour: "We believe HE will come back again at the rapture and 2nd coming.",
+            textFive: "We believe in the Holy Spirit.",
+            textSix: "We believe in the Trinity.",
+            textSvn: "We believe in the reality of eternal life which makes anyone superior to the corrupting influences of the world.",
+            textEit: "We believe the gospel of salvation is the only way to be saved once believed and confessed in the accordance with the gospel.",
+        },
+        sectionTwo: {
+            heading: "Testimonies",
+            textOne: "I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL i have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.",
+            textTwo: "I found people I can call family in TELL, the best gift of my life so far. I met teachers, preachers and influencers. I’m extremely blessed being here in TELL.",
+            textThr: "It is astonishing how believers, though separated by distance, have a deliberate and far reaching touch in each other’s lives, intentionally bearing- burdens, networking, impacting on each other’s essence, growing in God’s love for each other, fully embodying the life of Christ and shining the Light for the world to see the manifest Glory of God."
+        }
     }
 }

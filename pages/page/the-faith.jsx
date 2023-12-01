@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 const inter = Inter({ subsets: ['latin'] })
 
 const TheFaith = () => {
+    const [t, i18n] = useTranslation("global")
   return (
     <>
         <HeadComp title="Tell | The Faith" />
@@ -17,54 +18,54 @@ const TheFaith = () => {
                         <figure className="absolute h-[190px] w-[196px] bg-[url('/images/hands-to-heaven-light.jpeg')] rounded-[4px] bg-center bg-cover bg-no-repeat right-[-44px] bottom-[-95px]"></figure>
                     </figure>
                     <div className="w-[55%]">
-                        <h2 className="text-[#05120B] text-[40px] font-[600] mb-[24px]">The Faith</h2>
+                        <h2 className="text-[#05120B] text-[40px] font-[600] mb-[24px]">{t("pageThr.sectionOne.heading")}</h2>
                         <ul className="space-y-[14px]">
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textOne")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textTwo")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textThr")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textFour")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textFive")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textSix")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textSvn")}
                                 </li>
                             </div>
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
                                 <li className="leading-[32px] text-[#595959] text-[18px] font-[400]">
-                                    We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.
+                                    {t("pageThr.sectionOne.textEit")}
                                 </li>
                             </div>
                         </ul>
@@ -73,7 +74,7 @@ const TheFaith = () => {
             </section>
             <section className="bg-transparent pt-[58px]">
                 <div className="w-[80%] mx-auto">
-                    <h2 className="mb-[17px] text-white font-[600] text-[40px]">Testimonies</h2>
+                    <h2 className="mb-[17px] text-white font-[600] text-[40px]">{t("pageThr.sectionTwo.heading")}</h2>
                     <div className="flex pb-[32px] justify-between">
                         <div className="w-[32.5%] bg-white rounded-[8px] p-[30px]">
                             <div className="px-[10px] mb-[16px]">
@@ -91,7 +92,7 @@ const TheFaith = () => {
                                 </div>
                             </div>
                             <p className="text-[#595959] text-[18px] font-[400]">
-                                I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL i have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.
+                                {t("pageThr.sectionTwo.textOne")}
                             </p>
                         </div>
                         <div className="w-[32.5%] bg-white rounded-[8px] p-[30px]">
@@ -105,12 +106,12 @@ const TheFaith = () => {
                                     <Image src="/images/avatar.png" height={1} width={50} alt="user avatar" />
                                 </figure>
                                 <div className="">
-                                    <span className="text-[#565656] text-[16px] font-[500]">Esmeralada Pillay</span> <br />
-                                    <b className="text-[#D51D13] font-[500] text-[16px]">South Africa</b>
+                                    <span className="text-[#565656] text-[16px] font-[500]">Isaiah Roberts</span> <br />
+                                    <b className="text-[#D51D13] font-[500] text-[16px]">Nigeria</b>
                                 </div>
                             </div>
                             <p className="text-[#595959] text-[18px] font-[400]">
-                                I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL i have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.
+                                {t("pageThr.sectionTwo.textTwo")}
                             </p>
                         </div>
                         <div className="w-[32.5%] bg-white rounded-[8px] p-[30px]">
@@ -124,12 +125,12 @@ const TheFaith = () => {
                                     <Image src="/images/avatar.png" height={1} width={50} alt="user avatar" />
                                 </figure>
                                 <div className="">
-                                    <span className="text-[#565656] text-[16px] font-[500]">Esmeralada Pillay</span> <br />
-                                    <b className="text-[#D51D13] font-[500] text-[16px]">South Africa</b>
+                                    <span className="text-[#565656] text-[16px] font-[500]">Tobe Aniakor</span> <br />
+                                    <b className="text-[#D51D13] font-[500] text-[16px]">Nigeria</b>
                                 </div>
                             </div>
                             <p className="text-[#595959] text-[18px] font-[400]">
-                                I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL i have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.
+                                {t("pageThr.sectionTwo.textThr")}
                             </p>
                         </div>
                     </div>
