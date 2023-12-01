@@ -106,5 +106,42 @@ export const Lingalla = {
             message: "Nsango",
             btnText: "Kotinda"
         }
+    },
+    pageTwo: {
+        sectionOne: {
+            heading: "Koluka Mokano na Yo",
+            textOne: "Bato balukaka na bomoto na bango mokano ya bomoi na bango, mpe mbala mingi tozali kolikya elembo ya polele oyo euti na Nzambe. Libiangi ya Nzambe ,ekoki kosangisa banzela ndenge na ndenge, lokola kobatela balingami, kotambwisa kompanyi, kosalisa babola, to kosala mosala ya bolingo malamu. Tozali na batalanta oyo ekeseni na mosusu, mpe ntango tozali kosalela yango mpo na kosalela basusu, tozali koyanola na libiangi ya Nzambe. Molimo Mosantu azali kosala mosala monene mpo na kotambwisa biso, kopesaka lisungi, mpe kopesaka biloko oyo tozali na yango mposa na mobembo oyo.",
+            textTwo: "Motuna: Ndenge nini nakoki koyeba mokano na ngai mpe koyeba mokano ya Nzambe mpo na bomoi na ngai?",
+            textThr: "Motuna: Ndenge nini natikalaka na mokano ya Nzambe mpo na bomoi na ngai?",
+            textFour: "Motuna: Bokeseni nini ezali kati na mwango ya Nzambe mpe mokano ya Nzambe?",
+            textFive: "Motuna: Nakoki kobungisa libiangi ya Nzambe na bomoi na ngai?",
+            textSix: "Motuna: Nzambe abengi ngai nasala makambo oyo ekeseni mpenza?"
+        },
+        sectionTwo: {
+            heading: "Kotosa Nzambe",
+            textOne: "Kotosa Yesu Klisto na nzela ya Liloba ya Nzambe ezali likambo ya ntina mingi na kondima ya boklisto. Mpo na baklisto, Biblia etalelami lokola Liloba ya Nzambe oyo epemami mpe ezali na bokonzi, oyo ezali na mateya mpe litambwisi oyo Yesu ná bantoma na Ye bapesaki. Kotosa Yesu, lokola ezwami na Biblia, ezali lolenge ya kolanda ndakisa na Ye mpe kozala na bomoi engebene mokano ya Nzambe.",
+            textTwo: "Kondimana ya Sika, mingi mingi, ezali na mateya na ntina ya bomoi ya Yesu, oyo ezali kopesa ntina na makanisi lokola bolingo, bolimbisi, mawa mpe bomoi ya seko. Kotosa mateya oyo esangisi kosalela yango na bomoi ya moto, kosala makasi mpo na kozala na bomoi na lolenge oyo eyokani na mateya ya Klisto mpe ya bantoma na Ye lokola ezali na nsango malamu (Matai - Yoane) mpe mikanda (Baloma - Yuda).",
+            textThr: "Motuna: Kotosa Nzambe ememaka ngai na likoló?",
+            textFour: "Motuna: Ndenge nini nakoki naino kotosa mibeko nyonso ya Nzambe kozanga ete moko te nalonga? Ekoki kosalema?",
+            textFive: "Motuna: Botosi ezali naino na ntina mpo na Nzambe sikawa lokola nabikisami?",
+            textSix: "Motuna: Matomba nini tokoki kozwa na botosi?",
+            textSvn: "Motuna: Nini esalemaka soki nazangi botosi ya Nzambe?"
+        },
+        sectionThr: {
+            heading: "Mosala Ya Klisto Esili",
+            textOne: "Mosala ya Klisto oyo esilaki ezali likanisi ya ntina mingi na boklisto, oyo ezali kolakisa misio ya Yesu oyo esilaki, kobakama na ekulusu, lisekwa, komata na likoló mpe kofanda na Nkembo. Lisolo oyo ya nguya ebimisi mituna na ntina ya lisumu, mbeka, mpe nguya ya mbongwana ya bondimi. Elingi koloba nini mpo na biso, mpe ndenge nini tokoki kozwa bosikoli na nzela ya mosala ya Klisto oyo esilaki? Ezali lisolo moko ya kosimba motema oyo epelisaka mposa ya koyeba mpe efulaka bolukiluki ya bozindo ya kondima. Mituna mosusu oyo okoki kozala na yango mpo na likambo yango ezali na?",
+            textTwo: "Motuna: Mpo na nini Yesu ayaki, mpe Misio na Ye ezalaki nini?",
+            textThr: "Motuna: Liwa mpe lisekwa na Ye elimbolaki nini mpo na ngai?",
+            textFour: "Motuna: Lisumu ezali kaka nsima ya liwa ya Yesu?"
+        },
+        sectionFour: {
+            heading: "Lobiko",
+            textOne: `Na contexte ya boklisto, "lobiko" ezali libanga ya nse ya kondima, oyo ezali elilingi ya nzela ya bosikoli mpe bomoi ya seko na nzela ya kondima Yesu Klisto. Likanisi oyo ezali kotinda mituna na ntina ya lolenge ya lisumu, ngolu, mpe lolenge nini moto akoki kozwa lobiko. Yango elimboli nini mpo na baklisto, mpe ndenge nini ekokisama? Ezali likambo oyo epelisaka mposa ya koyeba mpe elendisaka bolukiluki ya mozindo ya mobembo ya molimo ya moto na kati ya kondima ya boklisto.`,
+            textTwo: "Motuna: Lobiko ezali nini?",
+            textThr: "Motuna: Esengeli nde moto nyonso abikisama?",
+            textFour: "Motuna: Ezali boni mpo na baoyo bazali na kondima ya boklisto te, bazali na etumbu?",
+            textFive: "Motuna: Lobiko ezali na boyokani na bosolo na ngai ya lelo to ezali kaka garantie ya bomoi oyo esilaka te nsima ya liwa ya moto?",
+            textSix: "Motuna: Kobikisama na Ngolu elingi koloba nini? Nazali lisusu na mokumba te mpo na misala na ngai?"
+        },
     }
 }

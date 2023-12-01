@@ -106,5 +106,42 @@ export const Spanish = {
             message: "Mensaje",
             btnText: "Entregar"
         }
+    },
+    pageTwo: {
+        sectionOne: {
+            heading: "Encontrar tu propósito",
+            textOne: "Los seres humanos buscan naturalmente el propósito de su vida y, a menudo, esperamos una señal clara de Dios. El llamado de Dios puede abarcar varios caminos, como cuidar a un ser querido, dirigir una empresa, ayudar a los necesitados o ser voluntario. Poseemos talentos únicos y, cuando los usamos para servir a los demás, respondemos al llamado de Dios. El Espíritu Santo juega un papel vital al guiarnos, brindarnos apoyo y ofrecer los recursos que necesitamos en este viaje.",
+            textTwo: "Pregunta: ¿Cómo descubro mi propósito y conozco el propósito de Dios para mi vida?",
+            textThr: "Pregunta: ¿Cómo permanezco en el propósito de Dios para mi vida?",
+            textFour: "Pregunta: ¿Cuál es la diferencia entre el plan de Dios y el propósito de Dios?",
+            textFive: "Pregunta: ¿Puedo perder el llamado de Dios sobre mi vida?",
+            textSix: "Pregunta: ¿Dios me ha llamado a hacer cosas muy distintas?"
+        },
+        sectionTwo: {
+            heading: "Obediencia a Dios",
+            textOne: "La obediencia a Jesucristo a través de la Palabra de Dios es central para la fe cristiana. Para los cristianos, la Biblia es considerada la Palabra de Dios inspirada y autorizada, que contiene enseñanzas y guía proporcionadas por Jesús y Sus apóstoles. La obediencia a Jesús, como se encuentra en la Biblia, es una manera de seguir Su ejemplo y vivir según la voluntad de Dios.",
+            textTwo: "El Nuevo Testamento, en particular, contiene las enseñanzas sobre la vida de Jesús, enfatizando conceptos como amor, perdón, compasión y vida eterna. La obediencia a estas enseñanzas implica aplicarlas en la vida, esforzándose por vivir de una manera consistente con las enseñanzas de Cristo y las de sus apóstoles contenidas en el evangelio (Mateo - Juan) y las epístolas (Romanos - Judas).",
+            textThr: "Pregunta: ¿La obediencia a Dios me lleva al cielo?",
+            textFour: "Pregunta: ¿Cómo puedo seguir obedeciendo todos los mandamientos de Dios sin faltar a ninguno? ¿Es posible?",
+            textFive: "Pregunta: ¿Sigue siendo importante para Dios la obediencia ahora que soy salvo?",
+            textSix: "Pregunta: ¿Cuáles son los beneficios de la obediencia?",
+            textSvn: "Pregunta: ¿Qué pasa cuando desobedezco a Dios?"
+        },
+        sectionThr: {
+            heading: "La obra terminada de Cristo",
+            textOne: "La Obra Terminada de Cristo es un concepto fundamental en el cristianismo, que significa la misión completada de Jesús, su crucifixión, resurrección, ascensión y asiento en la Gloria. Esta poderosa historia plantea preguntas sobre el pecado, el sacrificio y el poder transformador de la fe. ¿Qué significa para nosotros y cómo podemos encontrar la redención mediante la obra consumada de Cristo? Es una narrativa convincente que enciende la curiosidad e inspira la exploración de las profundidades de la fe. ¿Algunas preguntas que pueda tener sobre este tema incluyen?",
+            textTwo: "Pregunta: ¿Por qué vino Jesús y cuál era su misión?",
+            textThr: "Pregunta: ¿Qué significó para mí Su muerte y resurrección?",
+            textFour: "Pregunta: ¿Existe todavía el pecado después de la muerte de Jesús?"
+        },
+        sectionFour: {
+            heading: "Salvación",
+            textOne: `En el contexto del cristianismo, la "salvación" es una piedra angular de la fe, que simboliza el camino hacia la redención y la vida eterna mediante la creencia en Jesucristo. Este concepto plantea preguntas sobre la naturaleza del pecado, la gracia y cómo uno puede alcanzar la salvación. ¿Qué significa para los cristianos y cómo se logra? Es un tema que enciende la curiosidad y fomenta una exploración más profunda del viaje espiritual dentro de la fe cristiana.`,
+            textTwo: "Pregunta: ¿Qué es la salvación?",
+            textThr: "Pregunta: ¿Todos necesitan ser salvos?",
+            textFour: "Pregunta: ¿Qué pasa con aquellos que no están en la fe cristiana? ¿Están condenados?",
+            textFive: "Pregunta: ¿Tiene la salvación alguna relevancia para mi realidad actual o sólo garantiza una vida que nunca termina después de la muerte?",
+            textSix: "Pregunta: ¿Qué significa ser salvo por gracia? ¿Ya no soy responsable de mis acciones?"
+        },
     }
 }

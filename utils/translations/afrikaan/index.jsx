@@ -106,5 +106,42 @@ export const Afrikaan = {
             message: "Boodskap",
             btnText: "Indien"
         }
+    },
+    pageTwo: {
+        sectionOne: {
+            heading: "Vind jou doel",
+            textOne: `Mense soek natuurlik hul lewensdoel, en ons hoop dikwels op 'n duidelike teken van God. God se roeping kan verskeie paaie insluit, soos die versorging van 'n geliefde, die bestuur van 'n maatskappy, hulp aan behoeftiges, of vrywilligerswerk. Ons besit unieke talente, en terwyl ons dit gebruik om ander te dien, reageer ons op God se roepstem. Die Heilige Gees speel 'n belangrike rol om ons te lei, ondersteuning te bied en die hulpbronne te bied wat ons op hierdie reis nodig het.`,
+            textTwo: "Vraag: Hoe ontdek ek my doel en ken ek God se doel met my lewe?",
+            textThr: "Vraag: Hoe bly ek in God se doel vir my lewe?",
+            textFour: "Vraag: Wat is die verskil tussen God se plan en God se doel?",
+            textFive: "Vraag: Kan ek God se roeping op my lewe verloor?",
+            textSix: "Vraag: Het God my geroep om baie duidelike dinge te doen?"
+        },
+        sectionTwo: {
+            heading: "Gehoorsaamheid aan God",
+            textOne: "Gehoorsaamheid aan Jesus Christus deur die Woord van God is 'n sentrale deel van die Christelike geloof. Vir Christene word die Bybel beskou as die geïnspireerde en gesaghebbende Woord van God, wat leringe en leiding bevat wat deur Jesus en Sy apostels verskaf is. Gehoorsaamheid aan Jesus, soos dit in die Bybel gevind word, is 'n manier om Sy voorbeeld te volg en volgens God se wil te lewe.",
+            textTwo: "Die Nuwe Testament, veral, bevat die leerstellings oor die lewe van Jesus, met die klem op konsepte soos liefde, vergifnis, deernis en die ewige lewe. Gehoorsaamheid aan hierdie leringe behels die toepassing daarvan in 'n mens se lewe, strewe om te lewe op 'n wyse wat ooreenstem met Christus se leringe en dié van Sy apostels soos vervat in die evangelie (Matteus - Johannes) en briewe (Romeine - Judas).",
+            textThr: "Vraag: Neem gehoorsaamheid aan God my hemel toe?",
+            textFour: `Vraag: Hoe kan ek steeds alle gebooie van God gehoorsaam sonder om een te versuim? Is dit moontlik?`,
+            textFive: `Vraag: Is gehoorsaamheid steeds belangrik vir God noudat ek gered is?`,
+            textSix: `Vraag: Wat is die voordele van gehoorsaamheid?`,
+            textSvn: "Vraag: Wat gebeur as ek aan God ongehoorsaam is?"
+        },
+        sectionThr: {
+            heading: "Die Voltooide Werk van Christus",
+            textOne: "Die Voltooide Werk van Christus is 'n deurslaggewende konsep in die Christendom, wat Jesus se voltooide sending, kruisiging, opstanding, hemelvaart en sitplek in Glorie aandui. Hierdie kragtige verhaal laat vrae ontstaan oor sonde, opoffering en geloof se transformerende krag. Wat beteken dit vir ons, en hoe kan ons verlossing vind deur Christus se voltooide werk? Dit is 'n meesleurende verhaal wat nuuskierigheid aanwakker en die verkenning van geloof se dieptes inspireer. Sommige vrae wat jy mag hê oor hierdie onderwerp sluit in?",
+            textTwo: "Vraag: Waarom het Jesus gekom, en wat was Sy Opdrag?",
+            textThr: "Vraag: Wat het Sy dood en opstanding vir my beteken?",
+            textFour: `Vraag: Bestaan sonde steeds nadat Jesus gesterf het?`
+        },
+        sectionFour: {
+            heading: "Verlossing",
+            textOne: `In die konteks van Christenskap is "redding" 'n hoeksteen van geloof, wat die weg na verlossing en die ewige lewe deur geloof in Jesus Christus simboliseer. Hierdie konsep laat vrae ontstaan oor die aard van sonde, genade en hoe 'n mens verlossing kan verkry. Wat beteken dit vir Christene, en hoe word dit bereik? Dit is 'n onderwerp wat nuuskierigheid aanwakker en 'n dieper verkenning van 'n mens se geestelike reis binne die Christelike geloof aanmoedig.`,
+            textTwo: "Vraag: Wat is redding?",
+            textThr: `Vraag: Moet almal gered word?`,
+            textFour: `Vraag: Wat van diegene wat nie in die Christelike geloof is nie, is hulle gedoem?`,
+            textFive: `Vraag: Het verlossing enige relevansie vir my huidige werklikheid of waarborg dit net 'n lewe wat nooit eindig nadat 'n mens gesterf het nie?`,
+            textSix: `Vraag: Wat beteken dit om deur Genade gered te word? Is ek nie meer verantwoordelik vir my dade nie?`
+        },
     }
 }

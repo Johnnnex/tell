@@ -106,5 +106,42 @@ export const French = {
             message: "Message",
             btnText: "Soumettre"
         }
+    },
+    pageTwo: {
+        sectionOne: {
+            heading: "Trouver votre objectif",
+            textOne: "Les humains recherchent naturellement le but de leur vie et nous espérons souvent un signe clair de Dieu. L’appel de Dieu peut englober diverses voies, comme prendre soin d’un être cher, diriger une entreprise, aider les nécessiteux ou faire du bénévolat. Nous possédons des talents uniques et, lorsque nous les utilisons au service des autres, nous répondons à l’appel de Dieu. Le Saint-Esprit joue un rôle essentiel en nous guidant, en nous apportant notre soutien et en nous offrant les ressources dont nous avons besoin dans ce voyage.",
+            textTwo: "Question : Comment puis-je découvrir mon but et connaître le dessein de Dieu pour ma vie ?",
+            textThr: "Question : Comment puis-je rester dans le dessein de Dieu pour ma vie ?",
+            textFour: "Question : Quelle est la différence entre le plan de Dieu et le dessein de Dieu ?",
+            textFive: "Question : Puis-je perdre l’appel de Dieu dans ma vie ?",
+            textSix: "Question : Dieu m’a-t-il appelé à faire des choses très distinctes ?"
+        },
+        sectionTwo: {
+            heading: "L'obéissance à Dieu",
+            textOne: "L'obéissance à Jésus-Christ à travers la Parole de Dieu est au cœur de la foi chrétienne. Pour les chrétiens, la Bible est considérée comme la Parole inspirée et faisant autorité de Dieu, contenant les enseignements et les conseils fournis par Jésus et ses apôtres. L'obéissance à Jésus, telle qu'elle est décrite dans la Bible, est une manière de suivre son exemple et de vivre selon la volonté de Dieu.",
+            textTwo: "Le Nouveau Testament, en particulier, contient des enseignements sur la vie de Jésus, mettant l'accent sur des concepts tels que l'amour, le pardon, la compassion et la vie éternelle. L'obéissance à ces enseignements implique de les appliquer dans sa vie, en s'efforçant de vivre d'une manière cohérente avec les enseignements du Christ et ceux de ses apôtres tels qu'ils sont contenus dans l'Évangile (Matthieu - Jean) et les épîtres (Romains - Jude).",
+            textThr: "Question : L’obéissance à Dieu m’amène-t-elle au ciel ?",
+            textFour: "Question : Comment puis-je continuer à obéir à tous les commandements de Dieu sans en faillir ? Est-il possible?",
+            textFive: "Question : L’obéissance est-elle toujours importante aux yeux de Dieu maintenant que je suis sauvé ?",
+            textSix: "Question : Quels sont les avantages de l’obéissance ?",
+            textSvn: "Question : Que se passe-t-il lorsque je désobéis à Dieu ?"
+        },
+        sectionThr: {
+            heading: "L'œuvre achevée du Christ",
+            textOne: "L'œuvre achevée du Christ est un concept central dans le christianisme, signifiant la mission accomplie de Jésus, sa crucifixion, sa résurrection, son ascension et sa place dans la gloire. Cette histoire puissante soulève des questions sur le péché, le sacrifice et le pouvoir transformateur de la foi. Qu'est-ce que cela signifie pour nous, et comment pouvons-nous trouver la rédemption grâce à l'œuvre accomplie du Christ ? C'est un récit captivant qui attise la curiosité et inspire l'exploration des profondeurs de la foi. Certaines questions que vous pourriez avoir sur ce sujet comprennent :",
+            textTwo: "Question : Pourquoi Jésus est-il venu et quelle était sa mission ?",
+            textThr: "Question : Que signifiaient pour moi sa mort et sa résurrection ?",
+            textFour: "Question : Le péché existe-t-il encore après la mort de Jésus ?"
+        },
+        sectionFour: {
+            heading: "Salut",
+            textOne: `Dans le contexte du christianisme, le « salut » est la pierre angulaire de la foi, symbolisant le chemin vers la rédemption et la vie éternelle par la croyance en Jésus-Christ. Ce concept soulève des questions sur la nature du péché, la grâce et la manière dont on peut atteindre le salut. Qu’est-ce que cela signifie pour les chrétiens et comment y parvenir ? C'est un sujet qui attise la curiosité et encourage une exploration plus profonde de son cheminement spirituel au sein de la foi chrétienne.`,
+            textTwo: "Question : Qu’est-ce que le salut ?",
+            textThr: "Question : Est-ce que tout le monde doit être sauvé ?",
+            textFour: "Question : Qu’en est-il de ceux qui ne sont pas dans la foi chrétienne, sont-ils condamnés ?",
+            textFive: "Question : Le salut a-t-il un rapport avec ma réalité actuelle ou garantit-il seulement une vie qui ne se termine jamais après la mort ?",
+            textSix: "Question : Que signifie être sauvé par la Grâce ? Ne suis-je plus responsable de mes actes ?"
+        },
     }
 }

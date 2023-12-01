@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import Link from "next/link"
 import { useTranslation } from 'react-i18next'
 import { useRef, useState, useEffect } from 'react'
 import { Inter } from 'next/font/google'
@@ -14,6 +15,7 @@ const Header = () => {
   const header = useRef()
   const handleChangeLanguage = lang => {
     i18n.changeLanguage(lang)
+    setTranslateModal(false)
   }
   const links = [
     {
@@ -33,7 +35,7 @@ const Header = () => {
     },
     {
       id: 4,
-      path: "",
+      path: "/page/tell-answers",
       linkName: t("NavEl.LinkNameFour")
     },
     {
@@ -44,7 +46,11 @@ const Header = () => {
   ]
   const mappedLink = links.map(({id, path, linkName}) => {
     return (
-      <li key={id} className={`${pathname == path && "text-[#D51D13]"} text-[#6B7280] hover:text-[#D51D13] transition-[.4s] text-[16px] font-[500]`}>{linkName}</li>
+      <li key={id} className={`${pathname == path && "text-[#D51D13]"} text-[#6B7280] hover:text-[#D51D13] transition-[.4s] text-[16px] font-[500]`}>
+        <Link href={path}>
+          {linkName}
+        </Link>
+      </li>
     )
   })
   useEffect (() => {
@@ -58,15 +64,17 @@ const Header = () => {
   return (
     <header ref={header} className={`py-[10px] z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
       <div className="flex w-[94%] items-center gap-[6vw] justify-between mx-auto">
-        <figure className="">
-          <Image 
-            src="/images/logo.svg"
-            alt="Logo"
-            height={1}
-            width={100}
-            priority
-          />
-        </figure>
+        <Link href="/">
+          <figure className="">
+            <Image 
+              src="/images/logo.svg"
+              alt="Logo"
+              height={1}
+              width={100}
+              priority
+            />
+          </figure>
+        </Link>
         <nav className="flex-1 flex justify-between gap-[2vw] items-center">
           <ul className="flex flex-1 items-center justify-between">
             {mappedLink}

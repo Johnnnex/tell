@@ -61,7 +61,7 @@ export const English = {
             headingOne: "What we do:",
             textOne: "Through our projects, we extend a helping hand to those in need, providing shelter, food and hope for a better future.",
             headingTwo: "Biblical Reference:",
-            textTwo: `Mathew 25:35-36 highlights the christain duty to help the homeless, “For i was hungry and you gave me food, i was thirsty and you gave me drink, i was a stranger and you welcomed me”.`
+            textTwo: `Mathew 25:35-36 highlights the Christian duty to help the homeless, “For i was hungry and you gave me food, i was thirsty and you gave me drink, i was a stranger and you welcomed me”.`
         },
         cardFour: {
             figCaption: "Music and Creative Arts",
@@ -106,5 +106,42 @@ export const English = {
             message: "Message",
             btnText: "Submit"
         }
+    },
+    pageTwo: {
+        sectionOne: {
+            heading: "Finding Your Purpose",
+            textOne: "Humans naturally seek their life’s purpose, and we often hope for a clear sign from God. God’s calling ,can encompass various paths, such as caring for a loved ones, running a company, helping the needy, or volunteering. We possess unique talents, and as we use them to serve others, we respond to God’s call. The Holy Spirit plays a vital role in guiding us, providing support, and offering the resources we need on this journey.",
+            textTwo: "Q. How do I discover my purpose and know God’s purpose for my life?",
+            textThr: "Q. How do I remain in God’s purpose for my life?",
+            textFour: "Q. What’s the difference between God’s plan and God’s purpose?",
+            textFive: "Q. Can I lose God’s calling upon my life?",
+            textSix: "Q. Has God called me to do very distinct things?"
+        },
+        sectionTwo: {
+            heading: "Obedience To God",
+            textOne: "Obedience to Jesus Christ through the Word of God is a central to the Christian faith. For Christians, the Bible is considered the inspired and authoritative Word of God, containing teachings and guidance provided by Jesus and His apostles. Obedience to Jesus, as found in the Bible, is a way to follow His example and live according to God's will.",
+            textTwo: "The New Testament, in particular, contains the teachings on the  life of Jesus, emphasizing concepts such as love, forgiveness, compassion and eternal life. Obedience to these teachings involves applying them in one's life, striving to live in a manner consistent with Christ's teachings and that of His apostles as contained in the gospel (Matthew - John)  and epistles (Romans - Jude).",
+            textThr: "Q. Does obedience to God take me to heaven?",
+            textFour: "Q. How can I still obey all commandments of God without failing one? Is it possible?",
+            textFive: "Q. Is obedience still important to God now that I am saved?",
+            textSix: "Q. What are the benefits of obedience?",
+            textSvn: "Q. What happens when I disobey God?"
+        },
+        sectionThr: {
+            heading: "The Finished Work Of Christ",
+            textOne: "The Finished Work of Christ is a pivotal concept in Christianity, signifying Jesus's completed mission, crucifixion, resurrection, ascension and seating in Glory. This powerful story raises questions about sin, sacrifice, and faith's transformative power. What does it mean for us, and how can we find redemption through Christ's finished work? It's a compelling narrative that ignites curiosity and inspires exploration of faith's depths. Some questions you may have regarding this subject includes?",
+            textTwo: "Q. Why did Jesus come, and what was His Mission?",
+            textThr: "Q. What did His death and resurrection mean to me?",
+            textFour: "Q. Does sin still exist after Jesus has died?"
+        },
+        sectionFour: {
+            heading: "Salvation",
+            textOne: `In the context of Christianity, "salvation" is a cornerstone of faith, symbolizing the way to redemption and eternal life through belief in Jesus Christ. This concept prompts questions about the nature of sin, grace, and how one can attain salvation. What does it mean for Christians, and how is it achieved? It's a topic that ignites curiosity and encourages a deeper exploration of one's spiritual journey within the Christian faith.`,
+            textTwo: "Q. What is salvation?",
+            textThr: "Q. Does everyone need to be saved?",
+            textFour: "Q. What about those who are not in the Christian faith, are they doomed?",
+            textFive: "Q. Does salvation have any relevance to my present reality or does it only guarantee a life that never ends after one dies?",
+            textSix: "Q. What does it mean to be saved by Grace? Am i no longer accountable for my actions?"
+        },
     }
 }

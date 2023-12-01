@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <>
         <HeadComp title="Tell | Home" />
-        <main className={`${inter.className} mt-[10vh]`}>
+        <main className={`${inter.className} pt-[10vh]`}>
           <section className="fixed hero h-[100vh] w-full z-[-1]"></section>
           <section className="pb-[201px] pt-[180px]">
             <h1 className="text-white flex gap-[20px] wow fadeInDown text-[55px] leading-[70px] font-[600] w-fit mx-auto text-center">
