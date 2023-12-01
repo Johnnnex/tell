@@ -20,12 +20,12 @@ const Header = () => {
   const links = [
     {
       id: 1,
-      path: "#mission",
+      path: "/#mission",
       linkName: t("NavEl.LinkNameOne")
     },
     {
       id: 2,
-      path: "#about",
+      path: "/#about",
       linkName: t("NavEl.LinkNameTwo")
     },
     {
