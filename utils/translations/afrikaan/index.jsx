@@ -143,5 +143,24 @@ export const Afrikaan = {
             textFive: `Vraag: Het verlossing enige relevansie vir my huidige werklikheid of waarborg dit net 'n lewe wat nooit eindig nadat 'n mens gesterf het nie?`,
             textSix: `Vraag: Wat beteken dit om deur Genade gered te word? Is ek nie meer verantwoordelik vir my dade nie?`
         },
+    },
+    pageThr: {
+        sectionOne: {
+            heading: "Die Geloof",
+            textOne: "Ons glo dat Jesus die seun van God is, die manifestasie van God in menslike vlees aan die mensdom.",
+            textTwo: "Ons glo Hy het gesterf om die mens van sonde te red en om die mens te herstel in 'n ononderbroke verhouding en ewige eenheid met God.",
+            textThr: "Ons glo dat Hy weer opgestaan het, opgevaar het na die hemel en lewe vandag IN ONS (CHRISTUS IN ONS).",
+            textFour: "Ons glo HY sal weer terugkom by die wegraping en 2de koms.",
+            textFive: "Ons glo in die Heilige Gees.",
+            textSix: "Ons glo in die Drie-eenheid.",
+            textSvn: "Ons glo in die realiteit van die ewige lewe wat enigiemand verhewe bo die korrupte invloede van die wêreld maak.",
+            textEit: "Ons glo dat die evangelie van verlossing die enigste manier is om gered te word sodra dit geglo en bely is in ooreenstemming met die evangelie.",
+        },
+        sectionTwo: {
+            heading: "Getuienisse",
+            textOne: "Ek is mal daaroor om deel te wees van TELL Family. Ek is geseën met geestelike broers en susters, wat altyd bereid is om jou te help groei en saam met jou te bid deur dit alles. Nadat ek by TELL aangesluit het, het ek meer geestelik geword en ek het Jesus as my heer en verlosser aangeneem. Ek is geseën met krag en moed nadat ek by TELL aangesluit het.",
+            textTwo: "Ek het mense gevind wat ek familie kan noem in TELL, die beste geskenk van my lewe tot dusver. Ek het onderwysers, predikers en beïnvloeders ontmoet. Ek is uiters geseënd om hier in TELL te wees.",
+            textThr: "Dit is verstommend hoe gelowiges, alhoewel hulle deur afstand geskei is, 'n doelbewuste en verreikende aanraking in mekaar se lewens het, doelbewus laste dra, netwerk, impakteer op mekaar se wese, groei in God se liefde vir mekaar, ten volle beliggaam van die lewe van Christus en die lig skyn vir die wêreld om die manifeste Heerlikheid van God te sien."
+        }
     }
 }

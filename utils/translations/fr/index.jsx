@@ -143,5 +143,24 @@ export const French = {
             textFive: "Question : Le salut a-t-il un rapport avec ma réalité actuelle ou garantit-il seulement une vie qui ne se termine jamais après la mort ?",
             textSix: "Question : Que signifie être sauvé par la Grâce ? Ne suis-je plus responsable de mes actes ?"
         },
+    },
+    pageThr: {
+        sectionOne: {
+            heading: "La foi",
+            textOne: "Nous croyons que Jésus est le fils de Dieu, la manifestation de Dieu dans la chair humaine pour l'humanité.",
+            textTwo: "Nous croyons qu'il est mort pour sauver l'homme du péché et pour restaurer l'homme dans une relation ininterrompue et une union éternelle avec Dieu.",
+            textThr: "Nous croyons qu'Il est ressuscité, est monté au ciel et est vivant aujourd'hui EN NOUS (CHRIST EN NOUS).",
+            textFour: "Nous croyons qu'IL reviendra lors de l'enlèvement et de la seconde venue.",
+            textFive: "Nous croyons au Saint-Esprit.",
+            textSix: "Nous croyons en la Trinité.",
+            textSvn: "Nous croyons en la réalité de la vie éternelle qui rend chacun supérieur aux influences corruptrices du monde.",
+            textEit: "Nous croyons que l’Évangile du salut est le seul moyen d’être sauvé une fois qu’on a cru et confessé conformément à l’Évangile.",
+        },
+        sectionTwo: {
+            heading: "Témoignages",
+            textOne: "J'adore faire partie de la famille TELL. J'ai eu la chance d'avoir des frères et sœurs spirituels, qui sont toujours prêts à vous aider à grandir et à prier avec vous à travers tout cela. Après avoir rejoint TELL, je suis devenu plus spirituel et j'ai accepté Jésus comme mon seigneur et sauveur. J'ai eu la chance de retrouver force et courage après avoir rejoint TELL.",
+            textTwo: "J'ai trouvé des gens que je peux appeler ma famille à TELL, le plus beau cadeau de ma vie jusqu'à présent. J'ai rencontré des enseignants, des prédicateurs et des influenceurs. Je suis extrêmement chanceux d’être ici à TELL.",
+            textThr: "Il est étonnant de voir comment les croyants, bien que séparés par la distance, ont un contact délibéré et d'une grande portée dans la vie de chacun, portant intentionnellement des fardeaux, travaillant en réseau, ayant un impact sur l'essence de chacun, grandissant dans l'amour de Dieu les uns pour les autres, incarnant pleinement la vie du Christ. et faire briller la Lumière pour que le monde voie la Gloire manifeste de Dieu."
+        }
     }
 }

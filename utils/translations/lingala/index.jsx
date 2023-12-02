@@ -143,5 +143,24 @@ export const Lingalla = {
             textFive: "Motuna: Lobiko ezali na boyokani na bosolo na ngai ya lelo to ezali kaka garantie ya bomoi oyo esilaka te nsima ya liwa ya moto?",
             textSix: "Motuna: Kobikisama na Ngolu elingi koloba nini? Nazali lisusu na mokumba te mpo na misala na ngai?"
         },
+    },
+    pageThr: {
+        sectionOne: {
+            heading: "Kondima",
+            textOne: "Tondimi ete Yesu azali mwana ya Nzambe, emoniseli ya Nzambe na mosuni ya bato epai ya bato.",
+            textTwo: "Tondimi ete akufaki mpo na kobikisa moto na masumu mpe kozongisa moto na boyokani oyo ekabwani te & bomoko ya seko na Nzambe.",
+            textThr: "Tondimi ete asekwaki lisusu, amataki na lola mpe azali na bomoi lelo NA BISO (KRISTO NA BISO).",
+            textFour: "Tondimi YE akozonga lisusu na rapture na 2ème coming.",
+            textFive: "Tondimi Molimo Mosantu.",
+            textSix: "Tondimaka Bosato.",
+            textSvn: "Tondimi bosolo ya bomoi ya seko oyo ekomisaka moto nyonso aleki bopusi ya kobebisa ya mokili.",
+            textEit: "Tondimi ete nsango malamu ya lobiko ezali nzela se moko ya kobika mbala moko kondimama mpe koyambola na boyokani na nsango malamu.",
+        },
+        sectionTwo: {
+            heading: "Matatoli",
+            textOne: "Nalingaka kozala na kati ya TELL Family. Napambolami na bandeko mibali mpe basi ya molimo, oyo bazali ntango nyonso na bolingi ya kosalisa bino bokola mpe kosambela elongo na bino na nzela na yango nyonso. Après ko joindre TELL na komi spirituel mingi pe na ndimi Yesu lokola nkolo pe mobikisi na ngai. Napambolami na makasi mpe mpiko nsima ya kosangana na TELL.",
+            textTwo: "Nakuti bato nakoki kobenga libota na TELL, likabo ya malamu koleka ya bomoi na ngai kino sikawa. Nakutanaki na balakisi, basakoli mpe ba influenceurs. Na’zali extremement blessed kozala awa na TELL.",
+            textThr: "Ezali likambo ya kokamwa lolenge nini bandimi, atako bakabwani na ntaka, bazali na bosimbami ya mokano mpe ya mosika na bomoi ya moko na mosusu, na mokano komema- mikumba, kosala réseau, kosala bopusi na ntina ya moko na mosusu, kokola na bolingo ya Nzambe mpo na moko na mosusu, kosangisaka mobimba bomoi ya Klisto mpe kongenga Pole mpo ete mokili emona Nkembo ya Nzambe oyo ezali komonana."
+        }
     }
 }

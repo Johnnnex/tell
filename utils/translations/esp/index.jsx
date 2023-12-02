@@ -143,5 +143,24 @@ export const Spanish = {
             textFive: "Pregunta: ¿Tiene la salvación alguna relevancia para mi realidad actual o sólo garantiza una vida que nunca termina después de la muerte?",
             textSix: "Pregunta: ¿Qué significa ser salvo por gracia? ¿Ya no soy responsable de mis acciones?"
         },
+    },
+    pageThr: {
+        sectionOne: {
+            heading: "La fe",
+            textOne: "Creemos que Jesús es el hijo de Dios, la manifestación de Dios en carne humana a la humanidad.",
+            textTwo: "Creemos que Él murió para salvar al hombre del pecado y restaurarlo a una relación ininterrumpida y una unión eterna con Dios.",
+            textThr: "Creemos que Él resucitó, ascendió al cielo y hoy está vivo EN NOSOTROS (CRISTO EN NOSOTROS).",
+            textFour: "Creemos que ÉL regresará en el rapto y en la segunda venida.",
+            textFive: "Nosotros creemos en el Espíritu Santo.",
+            textSix: "Nosotros creemos en la trinidad.",
+            textSvn: "Creemos en la realidad de la vida eterna que hace a cualquiera superior a las influencias corruptoras del mundo.",
+            textEit: "Creemos que el evangelio de salvación es la única manera de ser salvo una vez creído y confesado de acuerdo con el evangelio.",
+        },
+        sectionTwo: {
+            heading: "Testimonios",
+            textOne: "Me encanta ser parte de la familia TELL. He sido bendecido con hermanos y hermanas espirituales que siempre están dispuestos a ayudarte a crecer y orar contigo a través de todo. Después de unirme a TELL me he vuelto más espiritual y he aceptado a Jesús como mi señor y salvador. He sido bendecido con fuerza y coraje después de unirme a TELL.",
+            textTwo: "Encontré personas a las que puedo llamar familia en TELL, el mejor regalo de mi vida hasta ahora. Conocí profesores, predicadores e influencers. Me siento muy bendecida de estar aquí en TELL.",
+            textThr: "Es sorprendente cómo los creyentes, aunque separados por la distancia, tienen un contacto deliberado y de largo alcance en la vida de los demás, llevando cargas intencionalmente, creando redes, impactando la esencia de cada uno, creciendo en el amor de Dios unos por otros, encarnando plenamente la vida de Cristo. y hacer brillar la Luz para que el mundo vea la Gloria manifiesta de Dios."
+        }
     }
 }
