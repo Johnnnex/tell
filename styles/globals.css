@@ -21,23 +21,35 @@ html {
   padding-inline: 20px;
   padding-block: 8px;
   border-radius: 6px;
-  background: #D51D13;
+  background-color: #D51D13;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
+  transition: .4s;
+}
+.btn-generic:hover, .btn-generic:focus {
+  background-color: transparent;
+  color: #D51D13;
+  outline: 1px dashed #D51D13;
 }
 .btn-white {
   padding-inline: 20px;
   padding-block: 8px;
   border-radius: 6px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
   color: #D51D13;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
+  transition: .4s;
+}
+.btn-white:hover, .btn-white:focus {
+  background-color: transparent;
+  color: white;
+  outline: 1px dashed white;
 }
 .btn-trans {
   padding-inline: 20px;
@@ -50,6 +62,12 @@ html {
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
+  transition: .4s;
+}
+.btn-trans:hover, .btn-trans:focus {
+  background-color: #fff;
+  color: #D51D13;
+  outline: 0;
 }
 .input-generic {
   padding-inline: 17px;
