@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 import HeadComp from '@/layout/headcomp'
+import ContactForm from '@/components/contact-form';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -231,7 +232,7 @@ const Homepage = () => {
                       <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <svg className="md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="#595959" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     +234 7311067887
                   </div>
@@ -240,19 +241,13 @@ const Homepage = () => {
                       <path d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="white" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <svg className="md:hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 8L10.8906 13.2604C11.5624 13.7083 12.4376 13.7083 13.1094 13.2604L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="#595959" stroke-width="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     Kephale.tell@gmail.com
                   </div>
                 </div>
               </div>
-              <form className="md:w-[55%] space-y-[24px]">
-                <input type="text" className="input-generic" placeholder={t("getInTouch.formEl.name")} />
-                <input type="email" className="input-generic" placeholder={t("getInTouch.formEl.mail")} />
-                <input type="number" className="input-generic" placeholder={t("getInTouch.formEl.phone")} />
-                <textarea cols="30" rows="5" className="input-textarea" placeholder={t("getInTouch.formEl.message")} />
-                <button className="btn-generic" type="submit">{t("getInTouch.formEl.btnText")}</button>
-              </form>
+              <ContactForm />
             </div>
           </section>
         </main>

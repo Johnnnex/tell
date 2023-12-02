@@ -15,7 +15,8 @@
     "react-dom": "^18",
     "react-i18next": "^13.4.0",
     "wow.js": "^1.2.2",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "react-loader-spinner": "^5.3.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

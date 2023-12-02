@@ -1,7 +1,7 @@
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
-const isServer = typeof window === 'undefined'
 import { useEffect } from 'react'
+const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 import '@/styles/globals.css'
 import { English } from '@/utils/translations/en'
