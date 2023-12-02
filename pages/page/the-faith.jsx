@@ -14,11 +14,11 @@ const TheFaith = () => {
             <section className="bg-[url('/images/the-faith.jpeg')] bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] h-[100vh] fixed top-0 w-full z-[-1]"></section>
             <section className="bg-white">
                 <section className="flex flex-col-reverse md:flex-row pt-[100px] md:pt-[190px] justify-between pb-[123px] items-center w-[90%] md:w-[85%] mx-auto">
-                    <figure className="h-[408px] hidden md:block relative rounded-[8px] bg-[url('/images/hands-to-heaven.jpeg')] bg-center bg-cover bg-no-repeat w-[35%] max-w-[420px]">
+                    <figure className="h-[408px] wow fadeIn hidden md:block relative rounded-[8px] bg-[url('/images/hands-to-heaven.jpeg')] bg-center bg-cover bg-no-repeat w-[35%] max-w-[420px]">
                         <figure className="absolute h-[190px] w-[196px] bg-[url('/images/hands-to-heaven-light.jpeg')] rounded-[4px] bg-center bg-cover bg-no-repeat right-[-44px] bottom-[-95px]"></figure>
                     </figure>
-                    <div className="md:w-[55%]">
-                        <h2 className="text-[#05120B] text-[24px] md:text-[40px] font-[600] mb-[24px]">{t("pageThr.sectionOne.heading")}</h2>
+                    <div className="md:w-[55%] wow fadeIn">
+                        <h2 className="text-[#05120B] wow fadeInDown text-[24px] md:text-[40px] font-[600] mb-[24px]">{t("pageThr.sectionOne.heading")}</h2>
                         <ul className="space-y-[14px]">
                             <div className="relative pl-[10px]">
                                 <span className="w-[6px] absolute top-0 left-0 h-[6px] rounded-[100px] bg-[#D51D13]"></span>
@@ -74,8 +74,8 @@ const TheFaith = () => {
             </section>
             <section className="bg-transparent pt-[58px]">
                 <div className="md:w-[80%] w-[90%] mx-auto">
-                    <h2 className="mb-[17px] text-white font-[600] text-[24px] md:text-[40px]">{t("pageThr.sectionTwo.heading")}</h2>
-                    <div className="flex gap-[16px] md:gap-0 flex-col md:flex-row pb-[32px] justify-between">
+                    <h2 className="mb-[17px] wow fadeIn text-white font-[600] text-[24px] md:text-[40px]">{t("pageThr.sectionTwo.heading")}</h2>
+                    <div className="flex wow fadeInDown gap-[16px] md:gap-0 flex-col md:flex-row pb-[32px] justify-between">
                         <div className="md:w-[32.5%] bg-white rounded-[8px] p-[30px]">
                             <div className="px-[10px] mb-[16px]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="39" viewBox="0 0 51 39" fill="none">
