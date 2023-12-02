@@ -9,15 +9,15 @@ const TellAnswers = () => {
     return (
     <>
         <HeadComp title="Tell | Tell Answers" />
-        <main className={`${inter.className} pb-[108px] pt-[190px]`}>
-            <section className="w-[85%] mx-auto">
-                <div className="flex mb-[40px] justify-between">
-                    <div className="w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
+        <main className={`${inter.className} pb-[108px] pt-[100px] md:pt-[190px]`}>
+            <section className="md:w-[85%] w-[90%] mx-auto">
+                <div className="flex flex-col gap-[24px] md:gap-0 md:flex-row mb-[24px] md:mb-[40px] justify-between">
+                    <div className="md:w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
                         <figure className="h-[252px] bg-[url('/images/values-2.png')] rounded-[8px] border border-black bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] mb-[32px]"></figure>
-                        <h3 className="text-[#05120B] font-[600] text-[24px] mb-[19px]">
+                        <h3 className="text-[#05120B] font-[600] text-[18px] md:text-[24px] mb-[19px]">
                             {t("pageTwo.sectionOne.heading")}
                         </h3>
-                        <p className="text-[#595959] font-[400] text-[18px] leading-[32px]">
+                        <p className="text-[#595959] font-[400] text-[16px] md:text-[18px] leading-[32px]">
                             {t("pageTwo.sectionOne.textOne")}
                             <br /><br/>
                             {t("pageTwo.sectionOne.textTwo")}
@@ -31,12 +31,12 @@ const TellAnswers = () => {
                             {t("pageTwo.sectionOne.textSix")}
                         </p>
                     </div>
-                    <div className="w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
+                    <div className="md:w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
                         <figure className="h-[252px] bg-[url('/images/reading-bible.jpeg')] rounded-[8px] border border-black bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] mb-[32px]"></figure>
-                        <h3 className="text-[#05120B] font-[600] text-[24px] mb-[19px]">
+                        <h3 className="text-[#05120B] font-[600] text-[18px] md:text-[24px] mb-[19px]">
                             {t("pageTwo.sectionTwo.heading")}
                         </h3>
-                        <p className="text-[#595959] font-[400] text-[18px] leading-[32px]">
+                        <p className="text-[#595959] font-[400] text-[16px] md:text-[18px] leading-[32px]">
                             {t("pageTwo.sectionTwo.textOne")}
                             <br /> <br />
                             {t("pageTwo.sectionTwo.textTwo")}
@@ -53,13 +53,13 @@ const TellAnswers = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex justify-between">
-                    <div className="w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
+                <div className="flex md:flex-row flex-col justify-between">
+                    <div className="md:w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
                         <figure className="h-[252px] bg-[url('/images/group-discussion.jpeg')] rounded-[8px] border border-black bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] mb-[32px]"></figure>
-                        <h3 className="text-[#05120B] font-[600] text-[24px] mb-[19px]">
+                        <h3 className="text-[#05120B] font-[600] text-[18px] md:text-[24px] mb-[19px]">
                             {t("pageTwo.sectionThr.heading")}
                         </h3>
-                        <p className="text-[#595959] font-[400] text-[18px] leading-[32px]">
+                        <p className="text-[#595959] font-[400] text-[16px] md:text-[18px] leading-[32px]">
                             {t("pageTwo.sectionThr.textOne")}
                             <br /><br />
                             {t("pageTwo.sectionThr.textTwo")}
@@ -69,12 +69,12 @@ const TellAnswers = () => {
                             {t("pageTwo.sectionThr.textFour")}
                         </p>
                     </div>
-                    <div className="w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
+                    <div className="md:w-[48%] rounded-[16px] border border-[rgba(89, 89, 89, 0.20)] p-[15px]">
                         <figure className="h-[252px] bg-[url('/images/prayers.jpeg')] rounded-[8px] border border-black bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#00000099] mb-[32px]"></figure>
-                        <h3 className="text-[#05120B] font-[600] text-[24px] mb-[19px]">
+                        <h3 className="text-[#05120B] font-[600] text-[18px] md:text-[24px] mb-[19px]">
                             {t("pageTwo.sectionFour.heading")}
                         </h3>
-                        <p className="text-[#595959] font-[400] text-[18px] leading-[32px]">
+                        <p className="text-[#595959] font-[400] text-[16px] md:text-[18px] leading-[32px]">
                             {t("pageTwo.sectionFour.textOne")}
                             <br /><br />
                             {t("pageTwo.sectionFour.textTwo")}
