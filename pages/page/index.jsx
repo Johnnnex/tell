@@ -25,7 +25,7 @@ const Homepage = () => {
               />
             </h1>
             <h1 className="text-white wow fadeInDown md:text-[55px] text-[32px] leading-[70px] font-[600] md:w-fit md:mx-auto mb-[24px] md:text-center">{t("Hero.TitleTwo")}</h1>
-            <p className="w-[75%] wow fadeIn md:text-center mx-auto text-white md:text-[20px] text-[16px] mb-[32px] font-[400] md:font-[500] tracking-[0.3px]">
+            <p className="md:w-[75%] wow fadeIn md:text-center mx-auto text-white md:text-[20px] text-[16px] mb-[32px] font-[400] md:font-[500] tracking-[0.3px]">
               {t("Hero.text")}
             </p>
             <div className="flex flex-col md:flex-row md:w-fit mx-auto gap-[16px]">
@@ -35,7 +35,7 @@ const Homepage = () => {
           </section>
           <section id="mission" className="py-[81px] bg-white">
             <div className="md:w-[85%] w-[90%] flex flex-col-reverse md:flex-row items-center gap-[80px] mx-auto">
-              <figure className="relative rounded-[8px] overflow-hidden w-[420px] h-[408px]">
+              <figure className="relative rounded-[8px] overflow-hidden md:w-[420px] w-full h-[334px] md:h-[408px]">
                 <Image 
                   src="/images/section-img.jpeg"
                   alt="man-praying"

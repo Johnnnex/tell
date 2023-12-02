@@ -47,10 +47,10 @@ const Footer = () => {
   return (
     <footer className={`bg-[url('/images/footer-img.png')] ${inter.className} py-[60px] bg-cover bg-center bg-blend-overlay bg-[#00000080]`}>
       <section className="w-[90%] space-y-[32px] mx-auto">
-        <ul className="flex w-[50%] text-[16px] text-white font-[500] mx-auto justify-between">
+        <ul className="flex flex-col md:flex-row gap-[4vh] md:w-[50%] text-[16px] text-white font-[500] md:mx-auto justify-between">
           {mappedLink}
         </ul>
-        <div className="flex gap-[24px] w-fit mx-auto items-center">
+        <div className="flex gap-[24px] md:w-fit md:mx-auto items-center">
           <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Footers/Social icon">
               <path id="Icon" fillRule="evenodd" clipRule="evenodd" d="M22 12.5C22 6.977 17.523 2.5 12 2.5C6.477 2.5 2 6.977 2 12.5C2 17.491 5.657 21.628 10.438 22.378V15.391H7.898V12.5H10.438V10.297C10.438 7.791 11.93 6.407 14.215 6.407C15.309 6.407 16.453 6.602 16.453 6.602V9.062H15.193C13.95 9.062 13.563 9.833 13.563 10.624V12.5H16.336L15.893 15.39H13.563V22.378C18.343 21.628 22 17.491 22 12.5Z" fill="white"/>
@@ -67,7 +67,7 @@ const Footer = () => {
             </g>
           </svg>
         </div>
-        <p className="text-white text-[16px] text-center font-[400]">&copy; 2023 TELL Community, Inc. All rights reserved.</p>
+        <p className="text-white text-[14px] md:text-[16px] md:text-center font-[400]">&copy; 2023 TELL Community, Inc. All rights reserved.</p>
       </section>
     </footer>
   )

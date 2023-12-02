@@ -11,7 +11,7 @@ const Header = () => {
   const [t, i18n] = useTranslation("global")
   const [navState, toggleNavState] = useState(false)
   const [translateModal, setTranslateModal] = useState(false)
-  const {pathname} = useRouter()
+  const {pathname, events} = useRouter()
   const header = useRef()
   const handleChangeLanguage = lang => {
     i18n.changeLanguage(lang)
@@ -58,6 +58,19 @@ const Header = () => {
       header.current.classList.toggle("header-sticky", window.scrollY > 0)
   })
   }, [])
+  useEffect(() => {
+    const onHashChangeStart = (url) => {
+      toggleNavState(false)
+    };
+
+    events.on("hashChangeStart", onHashChangeStart)
+    events.on("routeChangeStart", onHashChangeStart)
+
+    return () => {
+        events.off("hashChangeStart", onHashChangeStart)
+        events.off("routeChangeStart", onHashChangeStart)
+    };
+}, [events]);
   const toggleNav = () => {
     toggleNavState(!navState) 
   }
