@@ -127,9 +127,9 @@ const Header = () => {
                 </div>
               </li>
             </ul>
-            <div className="">
+            <a href="https://bit.ly/TELLNetwork" target="_blank" rel="noopener noreferrer">
               <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
-            </div>
+            </a>
           </nav>
           <button type='button' onClick={toggleNav} className="z-[4] relative md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" className={`transition-[.4s] ${navState ? "hidden" : ""}`} height="32" viewBox="0 0 32 1" fill="none">
