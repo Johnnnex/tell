@@ -21,25 +21,25 @@ const Values = ({popUpState, setpopupState}) => {
                 </svg>
             </button>
             <div className="grid overflow-y-auto h-full md:grid-cols-2 grid-cols-1 gap-x-[18px] gap-y-[16px] md:gap-y-[24px] mb-[56px]">
-                <div className="bg-[url('/images/values-1.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border border-black pt-[219px] pl-[27px] pb-[37px]">
+                <div className="bg-[url('/images/values-5.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border border-black pt-[219px] pl-[27px] pb-[37px]">
                     <h3 className="text-white font-[600] md:text-[30px] text-[18px] mb-[24px]">{t("values.cardFive.heading")}</h3>
                     <p className="md:text-[18px] text-[16px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardFive.text")}
                     </p>
                 </div>
-                <div className="border bg-[url('/images/values-2.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
+                <div className="border bg-[url('/images/values-6.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                     <h3 className="text-white font-[600] md:text-[30px] text-[18px] mb-[24px]">{t("values.cardSix.heading")}</h3>
                     <p className="md:text-[18px] text-[16px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardSix.text")}
                     </p>
                 </div>
-                <div className="border bg-[url('/images/values-3.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
+                <div className="border bg-[url('/images/values-7.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                     <h3 className="text-white font-[600] md:text-[30px] text-[18px] mb-[24px]">{t("values.cardSvn.heading")}</h3>
                     <p className="md:text-[18px] text-[16px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardSvn.text")}
                     </p>
                 </div>
-                <div className="border bg-[url('/images/values-4.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
+                <div className="border bg-[url('/images/values-8.png')] rounded-[8px] md:rounded-none bg-center bg-cover bg-no-repeat bg-blend-overlay bg-[#000000B2] border-black pt-[219px] pl-[27px] pb-[37px]">
                     <h3 className="text-white font-[600] md:text-[30px] text-[18px] mb-[24px]">{t("values.cardEit.heading")}</h3>
                     <p className="md:text-[18px] text-[16px] text-white w-[90%] font-[400] leading-[27px]">
                     {t("values.cardEit.text")}
