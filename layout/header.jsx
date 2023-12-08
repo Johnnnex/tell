@@ -94,12 +94,21 @@ const Header = () => {
       <header ref={header} className={`py-[10px] pr-3 md:pr-0 z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
         <div className="flex md:w-[94%] items-center gap-[6vw] justify-between mx-auto">
           <Link href="/">
-            <figure className="">
+            <figure className="hidden md:block">
               <Image 
                 src="/images/logo.svg"
                 alt="Logo"
                 height={1}
                 width={100}
+                priority
+              />
+            </figure>
+            <figure className="md:hidden">
+              <Image 
+                src="/images/logo.svg"
+                alt="Logo"
+                height={1}
+                width={150}
                 priority
               />
             </figure>

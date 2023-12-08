@@ -36,14 +36,16 @@ const Homepage = () => {
               <a href="https://bit.ly/TELLNetwork" target="_blank" rel="noopener noreferrer">
                 <button className="btn-generic wow fadeIn w-full md:min-w-max">{t("NavEl.BtnTexts")}</button>
               </a>
-              <button className="btn-white wow fadeIn w-full md:min-w-max">{t("Hero.BtnTexts")}</button>
+              <a href="https://gofund.me/ff68a0eb" target="_blank" rel="noopener noreferrer">
+                <button className="btn-white wow fadeIn w-full md:min-w-max">{t("Hero.BtnTexts")}</button>
+              </a>
             </div>
           </section>
           <section id="mission" className="py-[81px] bg-white">
             <div className="md:w-[85%] w-[90%] flex flex-col-reverse md:flex-row items-center gap-[80px] mx-auto">
               <figure className="relative wow fadeIn rounded-[8px] overflow-hidden md:w-[420px] w-full h-[334px] md:h-[408px]">
                 <Image 
-                  src="/images/section-img.jpeg"
+                  src="/images/session-img.jpg"
                   alt="man-praying"
                   fill
                 />
@@ -207,7 +209,9 @@ const Homepage = () => {
                       <li>{t("help.cardOne.pointTwo")}</li>
                     </ul>
                     <div className="w-fit mx-auto">
-                      <button className="btn-generic">{t("Hero.BtnTexts")}</button>
+                      <a href="https://gofund.me/ff68a0eb" target="_blank" rel="noopener noreferrer">
+                        <button className="btn-generic">{t("Hero.BtnTexts")}</button>
+                      </a>
                     </div>
                   </div>
                 </div>
