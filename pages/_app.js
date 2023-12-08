@@ -1,4 +1,5 @@
 import i18next from 'i18next'
+import{ ToastContainer } from 'react-toastify'
 import { I18nextProvider } from 'react-i18next'
 import { useEffect } from 'react'
 const isServer = typeof window === 'undefined'
@@ -48,6 +49,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </Layout>
       </I18nextProvider>
+      <ToastContainer />
     </>
   )
 }

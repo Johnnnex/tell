@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useRef, useState } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import emailjs from '@emailjs/browser';
 import { Oval } from 'react-loader-spinner'
@@ -78,7 +78,7 @@ const ContactForm = () => {
           {numberState && <p className="text-red-500 font-Montserrat">Phone cannot be empty!</p>}
           <textarea required cols="30" rows="5" name="message" type="text" value={user.message} onChange={handleChange} className="input-textarea" placeholder={t("getInTouch.formEl.message")} />
           {messageState && <p className="text-red-500 font-Montserrat">Message cannot be empty!</p>}
-          <button className="btn-generic" type="submit">
+          <button disabled={loadState == true && true} className="btn-generic" type="submit">
             {loadState ? (
               <div className="w-fit mx-auto">
                   <Oval
@@ -94,7 +94,6 @@ const ContactForm = () => {
           </button>
           {formState && <p className="text-[green] font-[500] text-[18px] font-Montserrat">Mail Sent!, await Tell&apos;s response</p>}
       </form>
-      <ToastContainer />
     </>
   )
 }
