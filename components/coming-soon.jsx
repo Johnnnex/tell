@@ -16,8 +16,8 @@ const ComingSoon = ({setpopupState, popUpState}) => {
             }} 
             className="absolute top-[16px] rounded-[100px] right-[16px] border border-[#E1E1E1] p-[8px]">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 6L6 18" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M6 6L18 18" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
           </button>
           <figure className="relative mx-auto w-[222px] mb-[40px] h-[148px]">

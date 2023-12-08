@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useRef, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import emailjs from '@emailjs/browser';
@@ -68,14 +69,14 @@ const ContactForm = () => {
     }
   return (
     <>
-      <form className="md:w-[55%] space-y-[24px]">
-          <input type="text" value={user.user_name} name="user_name" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.name")} />
+      <form onSubmit={sendEmail} ref={form} className="md:w-[55%] space-y-[24px]">
+          <input required type="text" value={user.user_name} name="user_name" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.name")} />
           {nameState && <p className="text-red-500 font-Montserrat">Name cannot be empty!</p>}
-          <input type="email" value={user.user_email} name="user_email" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.mail")} />
+          <input required type="email" value={user.user_email} name="user_email" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.mail")} />
           {mailState && <p className="text-red-500 font-Montserrat">Mail cannot be empty!</p>}
-          <input type="number" value={user.user_phone} name="user_phone" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.phone")} />
+          <input required type="number" value={user.user_phone} name="user_phone" onChange={handleChange} className="input-generic" placeholder={t("getInTouch.formEl.phone")} />
           {numberState && <p className="text-red-500 font-Montserrat">Phone cannot be empty!</p>}
-          <textarea cols="30" rows="5" name="message" type="text" value={user.message} onChange={handleChange} className="input-textarea" placeholder={t("getInTouch.formEl.message")} />
+          <textarea required cols="30" rows="5" name="message" type="text" value={user.message} onChange={handleChange} className="input-textarea" placeholder={t("getInTouch.formEl.message")} />
           {messageState && <p className="text-red-500 font-Montserrat">Message cannot be empty!</p>}
           <button className="btn-generic" type="submit">
             {loadState ? (
