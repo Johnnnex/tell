@@ -162,5 +162,9 @@ export const Lingalla = {
             textTwo: "Nakuti bato nakoki kobenga libota na TELL, likabo ya malamu koleka ya bomoi na ngai kino sikawa. Nakutanaki na balakisi, basakoli mpe ba influenceurs. Na’zali extremement blessed kozala awa na TELL.",
             textThr: "Ezali likambo ya kokamwa lolenge nini bandimi, atako bakabwani na ntaka, bazali na bosimbami ya mokano mpe ya mosika na bomoi ya moko na mosusu, na mokano komema- mikumba, kosala réseau, kosala bopusi na ntina ya moko na mosusu, kokola na bolingo ya Nzambe mpo na moko na mosusu, kosangisaka mobimba bomoi ya Klisto mpe kongenga Pole mpo ete mokili emona Nkembo ya Nzambe oyo ezali komonana."
         }
+    },
+    popUp : {
+        heading: "Ezobima kala mingi te",
+        text: "Hey mwana Nzambe, komitungisa te toza na eloko moko na magasin pona yo kala mingi te."
     }
 }

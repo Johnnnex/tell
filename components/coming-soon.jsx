@@ -24,10 +24,10 @@ const ComingSoon = ({setpopupState, popUpState}) => {
             <Image src="/images/img-coming-soon.png" fill alt="img-coming-soon" />
           </figure>
           <h3 className="text-[#05120B] text-center mb-[8px] text-[16px] font-[600] md:text-[24px]">
-            Coming Soon
+            {t("popUp.heading")}
           </h3>
           <p className="text-[#666481] leading-[24px] font-[400] text-[14px] text-center">
-            Hey child of God, not to worry we having something in store for you soon.
+            {t("popUp.text")}
           </p>
         </div>
     </section>

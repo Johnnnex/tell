@@ -162,5 +162,9 @@ export const Afrikaan = {
             textTwo: "Ek het mense gevind wat ek familie kan noem in TELL, die beste geskenk van my lewe tot dusver. Ek het onderwysers, predikers en beïnvloeders ontmoet. Ek is uiters geseënd om hier in TELL te wees.",
             textThr: "Dit is verstommend hoe gelowiges, alhoewel hulle deur afstand geskei is, 'n doelbewuste en verreikende aanraking in mekaar se lewens het, doelbewus laste dra, netwerk, impakteer op mekaar se wese, groei in God se liefde vir mekaar, ten volle beliggaam van die lewe van Christus en die lig skyn vir die wêreld om die manifeste Heerlikheid van God te sien."
         }
+    },
+    popUp : {
+        heading: "Kom binnekort",
+        text: "Hey kind van God, moenie bekommerd wees nie, ons het binnekort iets vir jou in die vooruitsig."
     }
 }

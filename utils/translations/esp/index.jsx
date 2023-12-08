@@ -162,5 +162,9 @@ export const Spanish = {
             textTwo: "Encontré personas a las que puedo llamar familia en TELL, el mejor regalo de mi vida hasta ahora. Conocí profesores, predicadores e influencers. Me siento muy bendecida de estar aquí en TELL.",
             textThr: "Es sorprendente cómo los creyentes, aunque separados por la distancia, tienen un contacto deliberado y de largo alcance en la vida de los demás, llevando cargas intencionalmente, creando redes, impactando la esencia de cada uno, creciendo en el amor de Dios unos por otros, encarnando plenamente la vida de Cristo. y hacer brillar la Luz para que el mundo vea la Gloria manifiesta de Dios."
         }
+    },
+    popUp : {
+        heading: "Muy pronto",
+        text: "Hola hijo de Dios, no te preocupes, pronto tendremos algo reservado para ti."
     }
 }

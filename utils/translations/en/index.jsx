@@ -162,5 +162,9 @@ export const English = {
             textTwo: "I found people I can call family in TELL, the best gift of my life so far. I met teachers, preachers and influencers. I’m extremely blessed being here in TELL.",
             textThr: "It is astonishing how believers, though separated by distance, have a deliberate and far reaching touch in each other’s lives, intentionally bearing- burdens, networking, impacting on each other’s essence, growing in God’s love for each other, fully embodying the life of Christ and shining the Light for the world to see the manifest Glory of God."
         }
+    },
+    popUp : {
+        heading: "Coming Soon",
+        text: "Hey child of God, not to worry we having something in store for you soon."
     }
 }

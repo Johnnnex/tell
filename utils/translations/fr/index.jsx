@@ -162,5 +162,9 @@ export const French = {
             textTwo: "J'ai trouvé des gens que je peux appeler ma famille à TELL, le plus beau cadeau de ma vie jusqu'à présent. J'ai rencontré des enseignants, des prédicateurs et des influenceurs. Je suis extrêmement chanceux d’être ici à TELL.",
             textThr: "Il est étonnant de voir comment les croyants, bien que séparés par la distance, ont un contact délibéré et d'une grande portée dans la vie de chacun, portant intentionnellement des fardeaux, travaillant en réseau, ayant un impact sur l'essence de chacun, grandissant dans l'amour de Dieu les uns pour les autres, incarnant pleinement la vie du Christ. et faire briller la Lumière pour que le monde voie la Gloire manifeste de Dieu."
         }
+    },
+    popUp : {
+        heading: "À venir",
+        text: "Hé enfant de Dieu, ne t'inquiète pas, nous avons bientôt quelque chose en réserve pour toi."
     }
 }
