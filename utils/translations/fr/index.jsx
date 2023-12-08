@@ -39,6 +39,22 @@ export const French = {
             heading: "Intégrité",
             text: `Inébranlable dans notre intégrité, conforme à la sagesse de Proverbes 10 :9 : « Celui qui marche dans l’intégrité marche en sécurité, mais celui qui emprunte des chemins tortueux sera découvert ».`
         },
+        cardFive: {
+            heading: "Respect",
+            text: "Nous honorons la valeur inhérente de chaque individu, car dans Matthieu 22 :39, Jésus nous dit « aimez votre prochain comme vous-même ». Notre respect est le reflet de ce commandement divin."
+        },
+        cardSix: {
+            heading: "Compassion",
+            text: "Nos cœurs débordent de compassion, reflétant la gentillesse illustrée dans Luc 10 :33 : « Mais un Samaritain... eut compassion de lui. Nous tendons une main de compassion à ceux qui en ont besoin."
+        },
+        cardSvn: {
+            heading: "Audace",
+            text: "Avec audace, nous relevons les défis comme les opportunités. Comme le déclare Proverbes 28 : 1 : « Les justes sont audacieux comme un lion ». Nous nous dirigeons courageusement vers l'inconnu."
+        },
+        cardEit: {
+            heading: "Responsabilité",
+            text: "Nous sommes des gestionnaires responsables, suivant les conseils de Galates 6 : 5 : « Car chacun devra porter son propre fardeau ». Nous nous tenons mutuellement responsables, garantissant ainsi une base fiable à notre travail."
+        },
         btnText: `Afficher toutes les valeurs`
     },
     whoWeAre: {

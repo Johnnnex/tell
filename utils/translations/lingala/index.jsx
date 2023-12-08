@@ -39,6 +39,22 @@ export const Lingalla = {
             heading: "Bosembo",
             text: `Kozanga kotɛngatɛnga na bosembo na biso, koyokanisaka na mayele ya Masese 10:9, ‘Moto oyo azali kotambola na bosembo azali kotambola na libateli, kasi oyo azali kolanda banzela ya kogumbama akoyebana’.`
         },
+        cardFive: {
+            heading: "Botosi",
+            text: "Tokumisaka motuya oyo moto na moto azali na yango, mpamba te na Matai 22:39, Yesu apesi biso malako ete ‘linga moninga na yo lokola yo moko’. Limemya na biso ezali komonisa etinda wana ya Nzambe."
+        },
+        cardSix: {
+            heading: "Mawa",
+            text: "Mitema na biso etondi na mawa, ezali komonisa boboto oyo emonisami na ndakisa na Luka 10:33, ‘Kasi Mosamalia...ayokelaki ye mawa,. Tosembolaka loboko ya mawa na baye bazali na bosenga."
+        },
+        cardSvn: {
+            heading: "Kozala na mpiko",
+            text: "Na mpiko, toyambaka mikakatano mpe mabaku lokola. Lokola Masese 28:1 esakoli yango, ‘Moyengebene azali na mpiko lokola nkosi’. Tokɔtaka na mpiko nyonso na makambo oyo eyebani te."
+        },
+        cardEit: {
+            heading: "Kopesa biyano",
+            text: "Tozali bakapita ya mikumba, kolanda litambwisi ya Bagalatia 6:5, ‘Mpo ete moto na moto akomema mokumba na ye moko’. Tomipesaka mpe moko na mosusu na mokumba, kosala ete moboko ya kotyela motema mpo na mosala na biso."
+        },
         btnText: `Tala Mituya Nyonso`
     },
     whoWeAre: {

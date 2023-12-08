@@ -39,6 +39,22 @@ export const Spanish = {
             heading: "Integridady",
             text: "Inquebrantables en nuestra integridad, alineándonos con la sabiduría de Proverbios 10:9: 'El que camina en integridad, camina seguro, pero el que toma caminos torcidos será descubierto'."
         },
+        cardFive: {
+            heading: "Respeto",
+            text: `Honramos el valor inherente de cada individuo, porque en Mateo 22:39, Jesús nos instruye a "ama a tu prójimo como a ti mismo". Nuestro respeto es un reflejo de este mandato divino.`
+        },
+        cardSix: {
+            heading: "Compasión",
+            text: `Nuestros corazones rebosan de compasión, reflejando la bondad ejemplificada en Lucas 10:33: "Pero un samaritano... tuvo compasión de él". Extendemos una mano de compasión a los necesitados.`
+        },
+        cardSvn: {
+            heading: "Audacia",
+            text: "Con audacia, aceptamos desafíos y oportunidades por igual. Como declara Proverbios 28:1: “El justo es valiente como un león”. Damos un paso valiente hacia lo desconocido."
+        },
+        cardEit: {
+            heading: "Responsabilidad",
+            text: `Somos mayordomos responsables, siguiendo la guía de Gálatas 6:5: "Porque cada uno tendrá que llevar su propia carga". Nos hacemos responsables a nosotros mismos y a los demás, garantizando una base confiable para nuestro trabajo.`
+        },
         btnText: `Ver todos los valores`
     },
     whoWeAre: {

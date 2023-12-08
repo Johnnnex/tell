@@ -39,6 +39,22 @@ export const Afrikaan = {
             heading: "Integriteit",
             text: `Onwrikbaar in ons onkreukbaarheid, in ooreenstemming met Spreuke 10:9 se wysheid, ‘Wie in onkreukbaarheid wandel, loop veilig, maar elkeen wat krom paaie loop, sal uitgevind word’.`
         },
+        cardFive: {
+            heading: "Respek",
+            text: "Ons eer die inherente waarde van elke individu, want in Matteus 22:39 beveel Jesus ons 'jou naaste liefhê soos jouself'. Ons respek is 'n weerspieëling van hierdie goddelike opdrag."
+        },
+        cardSix: {
+            heading: "Deernis",
+            text: "Ons harte loop oor van deernis en weerspieël die goedhartigheid wat in Lukas 10:33 geïllustreer word, 'Maar 'n Samaritaan ... het medelye met hom gehad. Ons reik 'n hand van deernis uit na diegene in nood."
+        },
+        cardSvn: {
+            heading: "Durfmoedigheid",
+            text: "Met vrymoedigheid aanvaar ons uitdagings en geleenthede gelyk. Soos Spreuke 28:1 verklaar, ‘Die regverdiges is dapper soos 'n leeu’. Ons stap moedig die onbekende in."
+        },
+        cardEit: {
+            heading: "Verantwoordbaarheid",
+            text: "Ons is verantwoordelike rentmeesters en volg Galasiërs 6:5 se leiding, ‘Want elkeen sal sy eie vrag moet dra’. Ons hou onsself en mekaar aanspreeklik en verseker 'n betroubare grondslag vir ons werk."
+        },
         btnText: "Bekyk alle waardes"
     },
     whoWeAre: {
