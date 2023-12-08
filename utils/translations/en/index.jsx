@@ -39,6 +39,22 @@ export const English = {
             heading: "Integrity",
             text: "Unwavering in our integrity, aligning with Proverbs 10:9’s wisdom, ‘Whoever walks in integrity walks securely, but whoever takes crooked paths will be found out’."
         },
+        cardFive: {
+            heading: "Respect",
+            text: "We honor the inherent worth of every individual, for in Mathew 22:39, Jesus instructs us ‘love your neighbor as yourself’. Our respect is a reflection of this divine command."
+        },
+        cardSix: {
+            heading: "Compassion",
+            text: "Our hearts overflow with compassion, mirroring the kindness exemplified in Luke 10:33, ‘But a Samaritan...had compassion on him,. We extend a hand of compassion to those in need."
+        },
+        cardSvn: {
+            heading: "Boldness",
+            text: "With boldness, we embrace challenges and opportunities alike. As Proverbs 28:1 declares, ‘The righteous are bold as a lion’. We courageously step into the unknown."
+        },
+        cardEit: {
+            heading: "Accountability",
+            text: "We are responsible stewards, following Galatians 6:5 guidance, ‘For each will have to bear his own load’. We hold ourselves and each other accountable, ensuring a reliable foundation for our work."
+        },
         btnText: "View All Values"
     },
     whoWeAre: {

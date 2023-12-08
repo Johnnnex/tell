@@ -4,10 +4,13 @@ import Image from 'next/image'
 import Typewriter from "typewriter-effect";
 import HeadComp from '@/layout/headcomp'
 import ContactForm from '@/components/contact-form';
+import Values from '@/components/values';
+import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
 const Homepage = () => {
+  const [popUpState, setpopupState] = useState(false)
   const [t, i18n] = useTranslation("global")
   return (
     <>
@@ -94,7 +97,7 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="w-fit wow fadeIn md:mx-auto">
-                <button className="btn-generic">{t("values.btnText")}</button>
+                <button onClick={() => setpopupState(true)} className="btn-generic">{t("values.btnText")}</button>
               </div>
             </div>
           </section>
@@ -257,6 +260,10 @@ const Homepage = () => {
             </div>
           </section>
         </main>
+        <Values 
+          setpopupState={setpopupState}
+          popUpState={popUpState}
+        />
     </>
   )
 }

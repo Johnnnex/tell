@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { Inter } from 'next/font/google'
 import { useTranslation } from 'react-i18next'
-import { useState } from "react"
 
 const inter = Inter({ subsets: ['latin'] })
 const ComingSoon = ({setpopupState, popUpState}) => {
