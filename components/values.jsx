@@ -8,7 +8,7 @@ const Values = ({popUpState, setpopupState}) => {
     const [t, i18n] = useTranslation("global")
   return (
     <section className={`fixed z-[3] ${popUpState == false ? "scale-0 invisible" : ""} transition-[.4s] ${inter.className} h-[100vh] top-0 w-full bg-[#00000045]`}>
-         <div className="md:max-w-[1512x] relative w-[95%] md:w-[90%] md:py-[2vh] pt-[40px] overflow-hidden rounded-[16px] mx-auto mt-[4vh] h-[94vh] px-[5px] md:px-[82px] bg-white">
+         <div className="md:max-w-[1512x] relative w-[95%] md:w-[90%] md:py-[2vh] pt-[60px] overflow-hidden rounded-[16px] mx-auto mt-[4vh] h-[94vh] px-[10px] md:px-[82px] bg-white">
             <button 
                 onClick={() => {
                 setpopupState(false)
