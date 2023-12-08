@@ -30,7 +30,9 @@ const Homepage = () => {
               {t("Hero.text")}
             </p>
             <div className="flex flex-col md:flex-row md:w-fit mx-auto gap-[16px]">
-              <button className="btn-generic wow fadeIn w-full md:min-w-max">{t("NavEl.BtnTexts")}</button>
+              <a href="https://bit.ly/TELLNetwork" target="_blank" rel="noopener noreferrer">
+                <button className="btn-generic wow fadeIn w-full md:min-w-max">{t("NavEl.BtnTexts")}</button>
+              </a>
               <button className="btn-white wow fadeIn w-full md:min-w-max">{t("Hero.BtnTexts")}</button>
             </div>
           </section>
@@ -56,7 +58,9 @@ const Homepage = () => {
                 <p className="mb-[32px] text-[#595959] md:text-[18px] text-[16px] leading-[30px] font-[400]">
                   {t("sectionOne.text")}
                 </p>
-                <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
+                <a href="https://bit.ly/TELLNetwork" target="_blank" rel="noopener noreferrer">
+                  <button className="btn-generic">{t("NavEl.BtnTexts")}</button>
+                </a>
               </div>
             </div>
           </section>
@@ -211,7 +215,9 @@ const Homepage = () => {
                       <li>{t("help.cardTwo.pointOne")}</li>
                     </ul>
                     <div className="w-fit mx-auto">
-                      <button className="btn-trans">{t("NavEl.BtnTexts")}</button>
+                      <a href="https://bit.ly/TELLNetwork" target="_blank" rel="noopener noreferrer">
+                        <button className="btn-trans">{t("NavEl.BtnTexts")}</button>
+                      </a>
                     </div>
                   </div>
                 </div>
