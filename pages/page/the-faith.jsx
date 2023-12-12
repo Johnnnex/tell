@@ -84,7 +84,7 @@ const TheFaith = () => {
                             </div>
                             <div className="flex gap-[16px] mb-[16px]">
                                 <figure className="">
-                                    <Image src="/images/esmeralda.jpg" height={1} width={50} alt="user avatar" />
+                                    <Image src="/images/esmeralda.png" height={1} width={50} alt="user avatar" />
                                 </figure>
                                 <div className="">
                                     <span className="text-[#565656] text-[16px] font-[500]">Esmeralda Pillay</span> <br />
@@ -103,7 +103,7 @@ const TheFaith = () => {
                             </div>
                             <div className="flex gap-[16px] mb-[16px]">
                                 <figure className="">
-                                    <Image src="/images/robert.jpg" height={1} width={50} alt="user avatar" />
+                                    <Image src="/images/robert.png" height={1} width={50} alt="user avatar" />
                                 </figure>
                                 <div className="">
                                     <span className="text-[#565656] text-[16px] font-[500]">Isaiah Roberts</span> <br />
