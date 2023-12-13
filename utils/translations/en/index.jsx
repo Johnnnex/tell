@@ -165,7 +165,7 @@ export const English = {
             heading: "The Faith",
             textOne: "We believe that Jesus is the son of God, the manifestation of God in human flesh to mankind.",
             textTwo: "We believe He died to save man from sin and to restore man into an unbroken relationship & eternal union with God.",
-            textThr: "We believe that He rose again, ascended to heaven and is alive today IN US (CHRIST IN US).",
+            textThr: "We believe that He rose again, ascended to heaven and is alive today IN US (Christ In Us).",
             textFour: "We believe HE will come back again at the rapture and 2nd coming.",
             textFive: "We believe in the Holy Spirit.",
             textSix: "We believe in the Trinity.",
