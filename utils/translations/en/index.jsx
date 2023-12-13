@@ -77,7 +77,7 @@ export const English = {
             headingOne: "What we do:",
             textOne: "Through our projects, we extend a helping hand to those in need, providing shelter, food and hope for a better future.",
             headingTwo: "Biblical Reference:",
-            textTwo: `Mathew 25:35-36 highlights the Christian duty to help the homeless, “For I was hungry and you gave me food, i was thirsty and you gave me drink, I was a stranger and you welcomed me”.`
+            textTwo: `Mathew 25:35-36 highlights the Christian duty to help the homeless, “For I was hungry and you gave me food, I was thirsty and you gave me drink, I was a stranger and you welcomed me”.`
         },
         cardFour: {
             figCaption: "Music and Creative Arts",
@@ -157,7 +157,7 @@ export const English = {
             textThr: "Q. Does everyone need to be saved?",
             textFour: "Q. What about those who are not in the Christian faith, are they doomed?",
             textFive: "Q. Does salvation have any relevance to my present reality or does it only guarantee a life that never ends after one dies?",
-            textSix: "Q. What does it mean to be saved by Grace? Am i no longer accountable for my actions?"
+            textSix: "Q. What does it mean to be saved by Grace? Am I no longer accountable for my actions?"
         },
     }, 
     pageThr: {
@@ -174,7 +174,7 @@ export const English = {
         },
         sectionTwo: {
             heading: "Testimonies",
-            textOne: "I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL i have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.",
+            textOne: "I love being part of TELL Family. I have been blessed with spiritual brothers and sisters, who are always willing to assist you grow and pray with you through it all. After joining TELL I have become more spiritual and I have accepted Jesus as my lord and savior. I have been blessed with strength and courage after joining TELL.",
             textTwo: "I found people I can call family in TELL, the best gift of my life so far. I met teachers, preachers and influencers. I’m extremely blessed being here in TELL.",
             textThr: "It is astonishing how believers, though separated by distance, have a deliberate and far reaching touch in each other’s lives, intentionally bearing- burdens, networking, impacting on each other’s essence, growing in God’s love for each other, fully embodying the life of Christ and shining the Light for the world to see the manifest Glory of God."
         }
