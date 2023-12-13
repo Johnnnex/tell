@@ -96,7 +96,7 @@ export const English = {
         cardSix: {
             figCaption: "Families",
             headingOne: "What we do:",
-            textOne: "We provide support for mental health, by providing safe space for individuals to find healing and peace through the word.",
+            textOne: "We provide support for those having mental health challenges, by providing safe space for individuals to find healing and peace through the word.",
             headingTwo: "Biblical Reference:",
             textTwo: `Philippians 4:7 offers comfort, “And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus”.`
         },
