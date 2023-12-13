@@ -87,7 +87,21 @@ const TellAnswers = () => {
                                 </button>
                             </div>
                             <p className={`text-[16px] ${testimonials.one == false ? "max-h-0" : "pt-[16px]"} text-[13px] overflow-hidden transition-[.4s] font-[400]`}>
-                                <a href="https://linktr.ee/widEdo" target='_blank' className="text-[#0673EF]">https://linktr.ee/widEdo</a>
+                                {t("pageTwo.qanda.qone")}
+                                <br />
+                                {t("pageTwo.qanda.pone")}
+                                <br />
+                                {t("pageTwo.qanda.textone")}
+                                <br />
+                                {t("pageTwo.qanda.ptwo")}
+                                <br />
+                                {t("pageTwo.qanda.texttwo")}
+                                <br />
+                                {t("pageTwo.qanda.pthr")} <span className="underline">{t("pageTwo.qanda.underlineone")}</span> {t("pageTwo.qanda.pfour")} <span className="underline">{t("pageTwo.qanda.underlinetwo")}</span> {t("pageTwo.qanda.pfiv")}
+                                <br />  
+                                {t("pageTwo.qanda.textthr")} 
+                                <br />
+                                {t("pageTwo.qanda.psix")} <span className="underline">{t("pageTwo.qanda.underlinethr")}</span>
                             </p>
                             {t("pageTwo.sectionTwo.textFour")}
                             <br />
