@@ -77,7 +77,7 @@ export const English = {
             headingOne: "What we do:",
             textOne: "Through our projects, we extend a helping hand to those in need, providing shelter, food and hope for a better future.",
             headingTwo: "Biblical Reference:",
-            textTwo: `Mathew 25:35-36 highlights the Christian duty to help the homeless, “For i was hungry and you gave me food, i was thirsty and you gave me drink, i was a stranger and you welcomed me”.`
+            textTwo: `Mathew 25:35-36 highlights the Christian duty to help the homeless, “For I was hungry and you gave me food, i was thirsty and you gave me drink, I was a stranger and you welcomed me”.`
         },
         cardFour: {
             figCaption: "Music and Creative Arts",
