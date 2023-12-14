@@ -96,7 +96,7 @@ const Header = () => {
           <Link href="/">
             <figure className="hidden md:block">
               <Image 
-                src="/images/logo.svg"
+                src="/images/loooogo.png"
                 alt="Logo"
                 height={1}
                 width={100}
@@ -105,7 +105,7 @@ const Header = () => {
             </figure>
             <figure className="md:hidden">
               <Image 
-                src="/images/logo.svg"
+                src="/images/loooogo.png"
                 alt="Logo"
                 height={1}
                 width={150}
