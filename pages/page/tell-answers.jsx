@@ -120,7 +120,19 @@ const TellAnswers = () => {
                                 </button>
                             </div>
                             <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} text-[13px] overflow-hidden transition-[.4s] font-[400]`}>
-                                <a href="https://linktr.ee/widEdo" target='_blank' className="text-[#0673EF]">https://linktr.ee/widEdo</a>
+                                {t("pageTwo.qanda.qtwo")}
+                                <br />
+                                {t("pageTwo.qanda.textfour")}
+                                <br />
+                                {t("pageTwo.qanda.psvn")} <span className="font-[700]">{t("pageTwo.qanda.bone")}</span>
+                                <br />
+                                {t("pageTwo.qanda.textfiv")}
+                                <br />
+                                {t("pageTwo.qanda.peit")} <span className="font-[700]">{t("pageTwo.qanda.btwo")}</span>
+                                <br />
+                                {t("pageTwo.qanda.textsix")}
+                                <br />
+                                {t("pageTwo.qanda.pnine")} <span className="font-[700]">{t("pageTwo.qanda.bthr")}</span>
                             </p>
                             {t("pageTwo.sectionTwo.textSix")}
                             <br />
@@ -139,7 +151,7 @@ const TellAnswers = () => {
                                 </button>
                             </div>
                             <p className={`text-[16px] ${testimonials.three == false ? "max-h-0" : "pt-[16px]"} text-[13px] overflow-hidden transition-[.4s] font-[400]`}>
-                                <a href="https://linktr.ee/widEdo" target='_blank' className="text-[#0673EF]">https://linktr.ee/widEdo</a>
+                                {t("pageTwo.qanda.qthr")}
                             </p>
                         </div>
                     </div>
