@@ -73,7 +73,7 @@ const TellAnswers = () => {
                             {t("pageTwo.sectionTwo.textTwo")}
                             <br /> <br />
                             <div className="flex justify-between  items-center">
-                                <h5 className="w-[80%] md:w-[95%]">{t("pageTwo.sectionTwo.textThr")}</h5>
+                                <h5 className="w-[80%] md:w-[95%] font-[700] text-[18px]">{t("pageTwo.sectionTwo.textThr")}</h5>
                                 <button className="w-[6%]" onClick={()=> toggleVisibility("one")}>
                                     <svg viewBox="0 0 24 24" className={ testimonials.one == false ? "rotate-0 transition-[.4s]" : "rotate-180 transition-[.4s]"} fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -105,7 +105,7 @@ const TellAnswers = () => {
                             {t("pageTwo.sectionTwo.textFour")}
                             <br />
                             <div className="flex justify-between  items-center">
-                                <h5 className="w-[80%] md:w-[95%]">{t("pageTwo.sectionTwo.textFive")}</h5>
+                                <h5 className="w-[80%] md:w-[95%] font-[700] text-[18px]">{t("pageTwo.sectionTwo.textFive")}</h5>
                                 <button className="w-[6%]" onClick={()=> toggleVisibility("two")}>
                                     <svg viewBox="0 0 24 24" className={ testimonials.two == false ? "rotate-0 transition-[.4s]" : "rotate-180 transition-[.4s]"} fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -135,7 +135,7 @@ const TellAnswers = () => {
                             {t("pageTwo.sectionTwo.textSix")}
                             <br />
                             <div className="flex justify-between items-center">
-                                <h5 className="w-[80%] md:w-[95%]">{t("pageTwo.sectionTwo.textSvn")}</h5>
+                                <h5 className="w-[80%] md:w-[95%] font-[700] text-[18px]">{t("pageTwo.sectionTwo.textSvn")}</h5>
                                 <button className="w-[6%]" onClick={()=> toggleVisibility("three")}>
                                     <svg viewBox="0 0 24 24" className={ testimonials.three == false ? "rotate-0 transition-[.4s]" : "rotate-180 transition-[.4s]"} fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
