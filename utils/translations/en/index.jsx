@@ -155,7 +155,7 @@ export const English = {
             underlinetwo: `[24] He that loveth me not keepeth not my sayings:`,
             pfiv: `and the word which ye hear is not mine, but the Father's which sent me`,
             textthr: `Romans 5:19 KJV`,
-            psix: `For as by one man's disobedience many were made sinners, so`,
+            psix: `For as by one man's disobedience many were made sinners,`,
             underlinethr: `so by the obedience of one shall many be made righteous.`,
             qtwo: `Yes, it is. God expects us to be obedient to the spirit since we now have a relationship with him. This is because it's our partnership with the Spirit that produces the right kind of living the word of God suggests. But this partnership is not a dictatorial one, but a mutual consenting loving relationship.`,
             textfour: `Romans 7:6 AMPC`,
