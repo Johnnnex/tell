@@ -80,7 +80,7 @@ const TellAnswers = () => {
                                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                         <g id="SVGRepo_iconCarrier"> 
                                             <rect width="24" height="24" fill="white"></rect> 
-                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#D51D13" stroke-linecap="round" stroke-linejoin="round"></path> 
                                         </g>
                                     </svg>
                                 </button>
@@ -112,7 +112,7 @@ const TellAnswers = () => {
                                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                         <g id="SVGRepo_iconCarrier"> 
                                             <rect width="24" height="24" fill="white"></rect> 
-                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#D51D13" stroke-linecap="round" stroke-linejoin="round"></path> 
                                         </g>
                                     </svg>
                                 </button>
@@ -142,7 +142,7 @@ const TellAnswers = () => {
                                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                                         <g id="SVGRepo_iconCarrier"> 
                                             <rect width="24" height="24" fill="white"></rect> 
-                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path> 
+                                            <path d="M7 14.5L12 9.5L17 14.5" stroke="#D51D13" stroke-linecap="round" stroke-linejoin="round"></path> 
                                         </g>
                                     </svg>
                                 </button>
