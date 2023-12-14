@@ -14,7 +14,7 @@ const HeadComp = ({title}) => {
         <meta name="twitter:description" content="Tell the goodnews" />
         {/* <meta name="twitter:image" content="https://https://kephaletell.com//images/open-graph-img.jpeg" /> */}
         <meta property="og:title" content="Tell" />
-        <meta property="og:url" content="https://https://kephaletell.com/" />
+        <meta property="og:url" content="https://kephaletell.com/" />
         {/* <meta property="og:image" content="https://https://kephaletell.com//images/open-graph-img.jpeg" /> */}
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Tell the goodnews" />
