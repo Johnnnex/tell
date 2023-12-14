@@ -91,7 +91,7 @@ const Header = () => {
   }
   return (
     <>
-      <header ref={header} className={`py-[10px] pr-3 md:pr-0 z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
+      <header ref={header} className={`md:py-[10px] pr-3 md:pr-0 z-[2] transition-[.4s] fixed w-full left-0 top-0 bg-white ${inter.className}`}>
         <div className="flex md:w-[94%] items-center gap-[6vw] justify-between mx-auto">
           <Link href="/">
             <figure className="">
