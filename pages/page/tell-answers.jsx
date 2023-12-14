@@ -117,7 +117,7 @@ const TellAnswers = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} font-[500] text-[14px] overflow-hidden transition-[.4s] font-[400]`}>
+                            <p className={`text-[16px] ${testimonials.two == false ? "max-h-0" : "pt-[16px]"} font-[500] text-[14px] overflow-hidden transition-[.4s]`}>
                                 {t("pageTwo.qanda.qtwo")}
                                 <br />
                                 {t("pageTwo.qanda.textfour")}
@@ -147,7 +147,7 @@ const TellAnswers = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <p className={`${testimonials.three == false ? "max-h-0" : "pt-[16px]"} text-[14px] font-[500] overflow-hidden transition-[.4s] font-[400]`}>
+                            <p className={`${testimonials.three == false ? "max-h-0" : "pt-[16px]"} text-[14px] font-[500] overflow-hidden transition-[.4s]`}>
                                 {t("pageTwo.qanda.qthr")}
                             </p>
                         </div>
